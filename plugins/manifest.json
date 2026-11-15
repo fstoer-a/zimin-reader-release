@@ -1,0 +1,410 @@
+{
+  "version": "1.0.0",
+  "updatedAt": "2026-11-15T00:00:00Z",
+  "plugins": [
+    {
+      "id": "markdown-it-emoji",
+      "name": "Emoji 表情",
+      "version": "3.1.0",
+      "description": "输入 :smile: 等短代码自动转换为 Emoji 表情符号。示例：:tada: :heart: :rocket:",
+      "descriptionEn": "markdown-it-emoji",
+      "source": "market",
+      "badge": "ai-reviewed",
+      "review": {
+        "reviewedAt": "2026-11-15",
+        "sha256": "9ce648b8d484edfbd84d530de1d6ad121dfc605057cf28ce2a352cf0387fa266",
+        "scanHits": 0,
+        "notes": "源码扫描零命中"
+      },
+      "author": "vitaly",
+      "download": "https://registry.npmjs.org/markdown-it-emoji/-/markdown-it-emoji-3.1.0.tgz",
+      "sizeKb": 336,
+      "deps": [],
+      "homepage": "https://www.npmjs.com/package/markdown-it-emoji"
+    },
+    {
+      "id": "markdown-it-mark",
+      "name": "高亮标记",
+      "version": "4.0.0",
+      "description": "使用 ==文字== 语法给文字加黄色高亮标记。示例：==这段话很重要==",
+      "descriptionEn": "markdown-it-mark",
+      "source": "market",
+      "badge": "ai-reviewed",
+      "review": {
+        "reviewedAt": "2026-11-15",
+        "sha256": "9705e91a79a1824079b7011b7059d51bb78cf47b8342039bec4fa487aeb3e63c",
+        "scanHits": 0,
+        "notes": "源码扫描零命中"
+      },
+      "author": "vitaly",
+      "download": "https://registry.npmjs.org/markdown-it-mark/-/markdown-it-mark-4.0.0.tgz",
+      "sizeKb": 15,
+      "deps": [],
+      "homepage": "https://www.npmjs.com/package/markdown-it-mark"
+    },
+    {
+      "id": "markdown-it-ins",
+      "name": "下划线",
+      "version": "4.0.0",
+      "description": "使用 ++文字++ 语法给文字加下划线。示例：++这行有下划线++",
+      "descriptionEn": "markdown-it-ins",
+      "source": "market",
+      "badge": "ai-reviewed",
+      "review": {
+        "reviewedAt": "2026-11-15",
+        "sha256": "bf7cbf37d3aa05349b67f92ff3ada9feb2667938dae010af5cfbeddc442b923b",
+        "scanHits": 0,
+        "notes": "源码扫描零命中"
+      },
+      "author": "vitaly",
+      "download": "https://registry.npmjs.org/markdown-it-ins/-/markdown-it-ins-4.0.0.tgz",
+      "sizeKb": 15,
+      "deps": [],
+      "homepage": "https://www.npmjs.com/package/markdown-it-ins"
+    },
+    {
+      "id": "markdown-it-sub",
+      "name": "下标",
+      "version": "2.0.0",
+      "description": "使用 ~文字~ 语法渲染下标。示例：H~2~O 显示为水的化学式",
+      "descriptionEn": "markdown-it-sub",
+      "source": "market",
+      "badge": "ai-reviewed",
+      "review": {
+        "reviewedAt": "2026-11-15",
+        "sha256": "81e60321b6e42bb34605ccdfbbd606ca083b0943e21f312da494795b42baa4dc",
+        "scanHits": 0,
+        "notes": "源码扫描零命中"
+      },
+      "author": "vitaly",
+      "download": "https://registry.npmjs.org/markdown-it-sub/-/markdown-it-sub-2.0.0.tgz",
+      "sizeKb": 9,
+      "deps": [],
+      "homepage": "https://www.npmjs.com/package/markdown-it-sub"
+    },
+    {
+      "id": "markdown-it-sup",
+      "name": "上标",
+      "version": "2.0.0",
+      "description": "使用 ^文字^ 语法渲染上标。示例：29^th^ 显示为第 29 上标",
+      "descriptionEn": "markdown-it-sup",
+      "source": "market",
+      "badge": "ai-reviewed",
+      "review": {
+        "reviewedAt": "2026-11-15",
+        "sha256": "03f5a7a8129fed416046201aa641fa9e49ea6f0d3783ac95247ff915e313335a",
+        "scanHits": 0,
+        "notes": "源码扫描零命中"
+      },
+      "author": "vitaly",
+      "download": "https://registry.npmjs.org/markdown-it-sup/-/markdown-it-sup-2.0.0.tgz",
+      "sizeKb": 9,
+      "deps": [],
+      "homepage": "https://www.npmjs.com/package/markdown-it-sup"
+    },
+    {
+      "id": "markdown-it-attrs",
+      "name": "属性注入",
+      "version": "5.0.1",
+      "description": "在标题/段落/代码块后加 {.class #id} 语法设置 HTML 属性，进阶用户自定义样式用。",
+      "descriptionEn": "markdown-it-attrs",
+      "source": "market",
+      "badge": "ai-reviewed",
+      "review": {
+        "reviewedAt": "2026-11-15",
+        "sha256": "7473022b896a87624e60576f31b19b741a4bc95ebcaa09fc385dd936e0245b26",
+        "scanHits": 0,
+        "notes": "源码扫描零命中"
+      },
+      "author": "arve0",
+      "download": "https://registry.npmjs.org/markdown-it-attrs/-/markdown-it-attrs-5.0.1.tgz",
+      "sizeKb": 413,
+      "deps": [],
+      "homepage": "https://www.npmjs.com/package/markdown-it-attrs"
+    },
+    {
+      "id": "markdown-it-container",
+      "name": "自定义容器",
+      "version": "4.0.0",
+      "description": "::: warning 这样的语法创建带 class 的容器区块，常用于提示框/警告框。",
+      "descriptionEn": "markdown-it-container",
+      "source": "market",
+      "badge": "ai-reviewed",
+      "review": {
+        "reviewedAt": "2026-11-15",
+        "sha256": "d5bd78dd73d50aeedc5855bd33311a20716cf6a215d7bb7d862c337d011e58d0",
+        "scanHits": 0,
+        "notes": "源码扫描零命中"
+      },
+      "author": "vitaly",
+      "download": "https://registry.npmjs.org/markdown-it-container/-/markdown-it-container-4.0.0.tgz",
+      "sizeKb": 20,
+      "deps": [],
+      "homepage": "https://www.npmjs.com/package/markdown-it-container"
+    },
+    {
+      "id": "markdown-it-abbr",
+      "name": "缩写标注",
+      "version": "2.0.0",
+      "description": "定义缩写词的完整含义，鼠标悬停显示。*[HTML]: 超文本标记语言",
+      "descriptionEn": "markdown-it-abbr",
+      "source": "market",
+      "badge": "ai-reviewed",
+      "review": {
+        "reviewedAt": "2026-11-15",
+        "sha256": "61d4b33f587eeeac21b612946e8908f2be29e806e8bf47d2e2d13b89011211fb",
+        "scanHits": 0,
+        "notes": "源码扫描零命中"
+      },
+      "author": "vitaly",
+      "download": "https://registry.npmjs.org/markdown-it-abbr/-/markdown-it-abbr-2.0.0.tgz",
+      "sizeKb": 21,
+      "deps": [],
+      "homepage": "https://www.npmjs.com/package/markdown-it-abbr"
+    },
+    {
+      "id": "markdown-it-deflist",
+      "name": "定义列表",
+      "version": "4.0.0",
+      "description": "术语下方缩进写定义，生成规范的 <dl> 定义列表。",
+      "descriptionEn": "markdown-it-deflist",
+      "source": "market",
+      "badge": "ai-reviewed",
+      "review": {
+        "reviewedAt": "2026-11-15",
+        "sha256": "eb70f804a1619fe933b5e8b0c2ec2a96a4cd85265bfd56d09d763822b268f3d0",
+        "scanHits": 0,
+        "notes": "源码扫描零命中"
+      },
+      "author": "vitaly",
+      "download": "https://registry.npmjs.org/markdown-it-deflist/-/markdown-it-deflist-4.0.0.tgz",
+      "sizeKb": 26,
+      "deps": [],
+      "homepage": "https://www.npmjs.com/package/markdown-it-deflist"
+    },
+    {
+      "id": "markdown-it-anchor",
+      "name": "标题锚点",
+      "version": "10.1.0",
+      "description": "自动给每个标题生成 id 锚点，方便页内跳转与外部链接定位。",
+      "descriptionEn": "markdown-it-anchor",
+      "source": "market",
+      "badge": "ai-reviewed",
+      "review": {
+        "reviewedAt": "2026-11-15",
+        "sha256": "4576a1f8bca5f20d28dbc89a2642167f11ea52701f60814898b3af5d303fad57",
+        "scanHits": 0,
+        "notes": "源码扫描零命中"
+      },
+      "author": "valeriangalliat",
+      "download": "https://registry.npmjs.org/markdown-it-anchor/-/markdown-it-anchor-10.1.0.tgz",
+      "sizeKb": 136,
+      "deps": [],
+      "homepage": "https://www.npmjs.com/package/markdown-it-anchor"
+    },
+    {
+      "id": "markdown-it-table-of-contents",
+      "name": "目录生成",
+      "version": "1.3.0",
+      "description": "在文档中写 [[TOC]] 自动生成全文目录。",
+      "descriptionEn": "markdown-it-table-of-contents",
+      "source": "market",
+      "badge": "ai-reviewed",
+      "review": {
+        "reviewedAt": "2026-11-15",
+        "sha256": "a16855a5bdd8e7950641568a24125c93c637122ef72307cb7af440d7a8da03c0",
+        "scanHits": 0,
+        "notes": "源码扫描零命中"
+      },
+      "author": "rockzombie2",
+      "download": "https://registry.npmjs.org/markdown-it-table-of-contents/-/markdown-it-table-of-contents-1.3.0.tgz",
+      "sizeKb": 72,
+      "deps": [],
+      "homepage": "https://www.npmjs.com/package/markdown-it-table-of-contents"
+    },
+    {
+      "id": "markdown-it-link-attributes",
+      "name": "链接属性",
+      "version": "4.0.1",
+      "description": "给外链统一加 target=_blank / rel=noopener 等属性。",
+      "descriptionEn": "markdown-it-link-attributes",
+      "source": "market",
+      "badge": "ai-reviewed",
+      "review": {
+        "reviewedAt": "2026-11-15",
+        "sha256": "7ee2ee700ad806be716c9b2180187ff74cf4a3d5fd6b255b4a382fce7ae79402",
+        "scanHits": 0,
+        "notes": "源码扫描零命中"
+      },
+      "author": "bladebarringer",
+      "download": "https://registry.npmjs.org/markdown-it-link-attributes/-/markdown-it-link-attributes-4.0.1.tgz",
+      "sizeKb": 14,
+      "deps": [],
+      "homepage": "https://www.npmjs.com/package/markdown-it-link-attributes"
+    },
+    {
+      "id": "markdown-it-image-figures",
+      "name": "图片转插图",
+      "version": "2.1.1",
+      "description": "单独成段的图片自动转为 <figure>，可带 <figcaption> 说明。",
+      "descriptionEn": "markdown-it-image-figures",
+      "source": "market",
+      "badge": "ai-reviewed",
+      "review": {
+        "reviewedAt": "2026-11-15",
+        "sha256": "03f3dc40e6f758339258adbc25b3d50c4c1e60fc837a53137c6880c2e2b716da",
+        "scanHits": 0,
+        "notes": "源码扫描零命中"
+      },
+      "author": "alaguna",
+      "download": "https://registry.npmjs.org/markdown-it-image-figures/-/markdown-it-image-figures-2.1.1.tgz",
+      "sizeKb": 22,
+      "deps": [],
+      "homepage": "https://www.npmjs.com/package/markdown-it-image-figures"
+    },
+    {
+      "id": "markdown-it-github-alerts",
+      "name": "GitHub 提示框",
+      "version": "1.0.1",
+      "description": "支持 GitHub 风格的 > [!NOTE] / [!WARNING] 提示框渲染。",
+      "descriptionEn": "markdown-it-github-alerts",
+      "source": "market",
+      "badge": "ai-reviewed",
+      "review": {
+        "reviewedAt": "2026-11-15",
+        "sha256": "14e3314c7092c981224ddba616807977bb8f8fee7b5afd7f06af4f443a595711",
+        "scanHits": 0,
+        "notes": "源码扫描零命中"
+      },
+      "author": "antfu",
+      "download": "https://registry.npmjs.org/markdown-it-github-alerts/-/markdown-it-github-alerts-1.0.1.tgz",
+      "sizeKb": 15,
+      "deps": [],
+      "homepage": "https://www.npmjs.com/package/markdown-it-github-alerts"
+    },
+    {
+      "id": "markdown-it-cjk-friendly",
+      "name": "中日韩断行优化",
+      "version": "3.0.0",
+      "description": "优化中日韩文字的强调语法（**加粗**前后贴中文时不失效）。",
+      "descriptionEn": "markdown-it-cjk-friendly",
+      "source": "market",
+      "badge": "ai-reviewed",
+      "review": {
+        "reviewedAt": "2026-11-15",
+        "sha256": "4b9f27ab17f23bb56a8cfa685972f1e9cd8e111dbf530a5a44cc511103ecd44c",
+        "scanHits": 0,
+        "notes": "源码扫描零命中"
+      },
+      "author": "tats-u",
+      "download": "https://registry.npmjs.org/markdown-it-cjk-friendly/-/markdown-it-cjk-friendly-3.0.0.tgz",
+      "sizeKb": 25,
+      "deps": [
+        "get-east-asian-width"
+      ],
+      "homepage": "https://www.npmjs.com/package/markdown-it-cjk-friendly"
+    },
+    {
+      "id": "@vscode__markdown-it-katex",
+      "name": "数学公式（增强版）",
+      "version": "1.1.2",
+      "description": "微软维护的 KaTeX 渲染，$E=mc^2$ 行内、$$块级$$公式。已内置，安装为覆盖升级。",
+      "descriptionEn": "@vscode/markdown-it-katex",
+      "source": "market",
+      "badge": "ai-reviewed",
+      "review": {
+        "reviewedAt": "2026-11-15",
+        "sha256": "763ae1c76cda85d2ef066cc25908e9a1ffa7c6becef83942f5e891006aff5c94",
+        "scanHits": 0,
+        "notes": "源码扫描零命中"
+      },
+      "author": "kaimaetzel",
+      "download": "https://registry.npmjs.org/@vscode/markdown-it-katex/-/markdown-it-katex-1.1.2.tgz",
+      "sizeKb": 26,
+      "deps": [
+        "katex"
+      ],
+      "homepage": "https://www.npmjs.com/package/@vscode/markdown-it-katex"
+    },
+    {
+      "id": "markdown-it-texmath",
+      "name": "TeX 数学公式",
+      "version": "1.0.0",
+      "description": "另一种数学公式渲染后端，与 KaTeX 内置版二选一即可。",
+      "descriptionEn": "markdown-it-texmath",
+      "source": "market",
+      "badge": "ai-reviewed",
+      "review": {
+        "reviewedAt": "2026-11-15",
+        "sha256": "afca1f328047ecd9a121ed3148232b91166c374766011c8f85372a7a0d18c2b3",
+        "scanHits": 1,
+        "notes": "唯一命中在测试文件，非运行时代码"
+      },
+      "author": "goessner",
+      "download": "https://registry.npmjs.org/markdown-it-texmath/-/markdown-it-texmath-1.0.0.tgz",
+      "sizeKb": 103,
+      "deps": [],
+      "homepage": "https://www.npmjs.com/package/markdown-it-texmath"
+    },
+    {
+      "id": "markdown-it-dollarmath",
+      "name": "Dollar 数学",
+      "version": "0.5.0",
+      "description": "Obsidian 风格的 $...$ / $$...$$ 数学语法。",
+      "descriptionEn": "markdown-it-dollarmath",
+      "source": "market",
+      "badge": "ai-reviewed",
+      "review": {
+        "reviewedAt": "2026-11-15",
+        "sha256": "226d138dc84291afcd686956f364c2dc69669630f30c0bb92849cd607b3587a0",
+        "scanHits": 0,
+        "notes": "源码扫描零命中"
+      },
+      "author": "rowanc1",
+      "download": "https://registry.npmjs.org/markdown-it-dollarmath/-/markdown-it-dollarmath-0.5.0.tgz",
+      "sizeKb": 629,
+      "deps": [],
+      "homepage": "https://www.npmjs.com/package/markdown-it-dollarmath"
+    },
+    {
+      "id": "markdown-it-task-checkbox",
+      "name": "任务复选框增强",
+      "version": "1.0.6",
+      "description": "给 - [ ] 任务列表渲染真实可点的复选框。",
+      "descriptionEn": "markdown-it-task-checkbox",
+      "source": "market",
+      "badge": "ai-reviewed",
+      "review": {
+        "reviewedAt": "2026-11-15",
+        "sha256": "326007dea61d28f769a8b510b9cc9b349b8befb11afbce75fbc5a3f5f683dd8e",
+        "scanHits": 1,
+        "notes": "唯一命中在测试文件，非运行时代码"
+      },
+      "author": "linsir",
+      "download": "https://registry.npmjs.org/markdown-it-task-checkbox/-/markdown-it-task-checkbox-1.0.6.tgz",
+      "sizeKb": 0,
+      "deps": [],
+      "homepage": "https://www.npmjs.com/package/markdown-it-task-checkbox"
+    },
+    {
+      "id": "markdown-it-table",
+      "name": "表格增强",
+      "version": "5.0.0",
+      "description": "扩展表格语法能力。",
+      "descriptionEn": "markdown-it-table",
+      "source": "market",
+      "badge": "ai-reviewed",
+      "review": {
+        "reviewedAt": "2026-11-15",
+        "sha256": "01d40f23f8f13285c9b4c7097b9c32293e7387abf9c2327866cd06b3ece974d4",
+        "scanHits": 0,
+        "notes": "源码扫描零命中"
+      },
+      "author": "1999",
+      "download": "https://registry.npmjs.org/markdown-it-table/-/markdown-it-table-5.0.0.tgz",
+      "sizeKb": 21,
+      "deps": [],
+      "homepage": "https://www.npmjs.com/package/markdown-it-table"
+    }
+  ]
+}
