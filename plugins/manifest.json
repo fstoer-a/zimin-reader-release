@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "2026-11-17T17:32:43Z",
+  "updatedAt": "2026-11-17T18:02:20Z",
   "plugins": [
     {
       "id": "@vscode/markdown-it-katex",
@@ -408,9 +408,9 @@
     },
     {
       "id": "@mdit/plugin-alert",
-      "name": "@mdit/plugin-alert",
+      "name": "GFM 提示块",
       "version": "2.2.0",
-      "description": "GFM Markdown alert plugin for MarkdownIt",
+      "description": "支持 > [!NOTE] / [!TIP] / [!IMPORTANT] / [!WARNING] / [!CAUTION] 五种提示样式，渲染成带图标的彩色块。",
       "source": "market",
       "badge": "community",
       "author": "",
@@ -418,13 +418,14 @@
       "sizeKb": 13,
       "weeklyDownloads": 653846,
       "deps": [],
-      "sha256": "8f3e0d592f70979c1efdf3fd3096d12fc7c372ec5b03fe45122c4833d5524059"
+      "sha256": "8f3e0d592f70979c1efdf3fd3096d12fc7c372ec5b03fe45122c4833d5524059",
+      "descriptionEn": ""
     },
     {
       "id": "@mdit/plugin-attrs",
-      "name": "@mdit/plugin-attrs",
+      "name": "属性语法",
       "version": "1.5.0",
-      "description": "Attrs plugin for MarkdownIt",
+      "description": "给标题、段落、行内元素追加 {#id .class key=value} 属性，便于自定义锚点与样式。",
       "source": "market",
       "badge": "community",
       "author": "",
@@ -432,13 +433,14 @@
       "sizeKb": 58,
       "weeklyDownloads": 52508,
       "deps": [],
-      "sha256": "66e7b82f4d2ab474bf9f819ca52389e1129f02b8a27e86c99bfabb013abbb727"
+      "sha256": "66e7b82f4d2ab474bf9f819ca52389e1129f02b8a27e86c99bfabb013abbb727",
+      "descriptionEn": ""
     },
     {
       "id": "@mdit/plugin-container",
-      "name": "@mdit/plugin-container",
+      "name": "自定义容器",
       "version": "2.2.0",
-      "description": "Container plugin for MarkdownIt",
+      "description": "用 ::: 名称 包裹一段内容，渲染成带边框和标题的自定义区块。",
       "source": "market",
       "badge": "community",
       "author": "",
@@ -446,13 +448,14 @@
       "sizeKb": 9,
       "weeklyDownloads": 60586,
       "deps": [],
-      "sha256": "662a877d22f95c13c28a7aa7760d27b9c64c4c699279b33c12df0a50293a9554"
+      "sha256": "662a877d22f95c13c28a7aa7760d27b9c64c4c699279b33c12df0a50293a9554",
+      "descriptionEn": ""
     },
     {
       "id": "@mdit/plugin-inline-rule",
-      "name": "@mdit/plugin-inline-rule",
+      "name": "行内规则工具库",
       "version": "2.2.5",
-      "description": "inline-rule plugin for MarkdownIt",
+      "description": "为其它插件提供行内语法注册能力的基础库；单独安装没有可见效果。",
       "source": "market",
       "badge": "community",
       "author": "",
@@ -460,13 +463,14 @@
       "sizeKb": 12,
       "weeklyDownloads": 49813,
       "deps": [],
-      "sha256": "eccd4f6df6224a3956784128895cb7b0b46f734a7df174050f0c2cb4b1726214"
+      "sha256": "eccd4f6df6224a3956784128895cb7b0b46f734a7df174050f0c2cb4b1726214",
+      "descriptionEn": ""
     },
     {
       "id": "@mdit/plugin-sub",
-      "name": "@mdit/plugin-sub",
+      "name": "下标",
       "version": "1.2.0",
-      "description": "Subscript plugin for MarkdownIt",
+      "description": "把 H~2~O 渲染成下标 H₂O，适合化学式与变量角标。",
       "source": "market",
       "badge": "community",
       "author": "",
@@ -474,13 +478,14 @@
       "sizeKb": 6,
       "weeklyDownloads": 51135,
       "deps": [],
-      "sha256": "c374442db2c18b6ed838710e374afc6f1ed1e978a3943727a8e12cd999cd31f3"
+      "sha256": "c374442db2c18b6ed838710e374afc6f1ed1e978a3943727a8e12cd999cd31f3",
+      "descriptionEn": ""
     },
     {
       "id": "@mdit/plugin-sup",
-      "name": "@mdit/plugin-sup",
+      "name": "上标",
       "version": "1.2.0",
-      "description": "Superscript plugin for MarkdownIt",
+      "description": "把 x^2^ 渲染成上标，适合指数与注释标记。",
       "source": "market",
       "badge": "community",
       "author": "",
@@ -488,13 +493,14 @@
       "sizeKb": 6,
       "weeklyDownloads": 51016,
       "deps": [],
-      "sha256": "a5a82fcbe539e10abe1a66cc05c2c330fe19e2187f8b10b25010d81734e7aae1"
+      "sha256": "a5a82fcbe539e10abe1a66cc05c2c330fe19e2187f8b10b25010d81734e7aae1",
+      "descriptionEn": ""
     },
     {
       "id": "@mdit/plugin-tab",
-      "name": "@mdit/plugin-tab",
+      "name": "标签页容器",
       "version": "2.1.1",
-      "description": "Tab plugin for MarkdownIt",
+      "description": "把多段内容组织成可点击切换的标签页，适合多方案对比。",
       "source": "market",
       "badge": "community",
       "author": "",
@@ -502,13 +508,14 @@
       "sizeKb": 19,
       "weeklyDownloads": 52322,
       "deps": [],
-      "sha256": "9b6f370b9153ac38510012d7d89e8abd5ff20afd420bc423f889c6bda28f5dcd"
+      "sha256": "9b6f370b9153ac38510012d7d89e8abd5ff20afd420bc423f889c6bda28f5dcd",
+      "descriptionEn": ""
     },
     {
       "id": "@mdit/plugin-tex",
-      "name": "@mdit/plugin-tex",
+      "name": "TeX 数学公式",
       "version": "1.3.0",
-      "description": "Tex plugin for MarkdownIt",
+      "description": "解析 TeX 数学语法；注意：本应用已内置 KaTeX，同时启用可能重复渲染公式。",
       "source": "market",
       "badge": "community",
       "author": "",
@@ -516,13 +523,14 @@
       "sizeKb": 14,
       "weeklyDownloads": 50313,
       "deps": [],
-      "sha256": "01dabc250c027d6d0a5a32647ea0dd392db00855cf53f4b9f46e3212f5a9945b"
+      "sha256": "01dabc250c027d6d0a5a32647ea0dd392db00855cf53f4b9f46e3212f5a9945b",
+      "descriptionEn": ""
     },
     {
       "id": "markdown-it-footnote",
-      "name": "markdown-it-footnote",
+      "name": "脚注",
       "version": "4.0.0",
-      "description": "Footnotes for markdown-it markdown parser.",
+      "description": "支持 [^1] 脚注语法与文末注释区，适合长文引用；注意：应用内置脚注可能与它重复。",
       "source": "market",
       "badge": "community",
       "author": "",
@@ -530,13 +538,14 @@
       "sizeKb": 9,
       "weeklyDownloads": 1018123,
       "deps": [],
-      "sha256": "319e1c784b74a73b473e76a1bb725d3770c5a2e409dfd8c30c504f3a2712e272"
+      "sha256": "319e1c784b74a73b473e76a1bb725d3770c5a2e409dfd8c30c504f3a2712e272",
+      "descriptionEn": ""
     },
     {
       "id": "markdown-it-for-inline",
-      "name": "markdown-it-for-inline",
+      "name": "行内 token 遍历库",
       "version": "2.0.1",
-      "description": "Inline tokens iterator for markdown-it markdown parser.",
+      "description": "供插件作者遍历行内 token 的工具库；单独安装没有可见效果。",
       "source": "market",
       "badge": "community",
       "author": "",
@@ -544,13 +553,14 @@
       "sizeKb": 3,
       "weeklyDownloads": 55759,
       "deps": [],
-      "sha256": "4b7ced6b6f9b70ae0180883550c3fcb56dda0296b6c52ce7d32faa0129aa095e"
+      "sha256": "4b7ced6b6f9b70ae0180883550c3fcb56dda0296b6c52ce7d32faa0129aa095e",
+      "descriptionEn": ""
     },
     {
       "id": "markdown-it-front-matter",
-      "name": "markdown-it-front-matter",
+      "name": "YAML front matter",
       "version": "0.2.4",
-      "description": "Plugin to process front matter container for markdown-it markdown parser",
+      "description": "识别并剥离文档头部的 YAML 元信息；注意：本应用渲染前已自动剥离 front matter，重复安装无收益。",
       "source": "market",
       "badge": "community",
       "author": "",
@@ -558,13 +568,14 @@
       "sizeKb": 4,
       "weeklyDownloads": 175225,
       "deps": [],
-      "sha256": "2e40bc3ca61af2a54f8e0876790deae77117f47eccd6ce43e0968eecc932adf9"
+      "sha256": "2e40bc3ca61af2a54f8e0876790deae77117f47eccd6ce43e0968eecc932adf9",
+      "descriptionEn": ""
     },
     {
       "id": "markdown-it-github",
-      "name": "markdown-it-github",
+      "name": "GitHub 风格渲染",
       "version": "0.5.0",
-      "description": "A markdown-it plugin to generate github style markdown.",
+      "description": "按 GitHub 的 Markdown 规则渲染，补充标题锚点等 GitHub 特有行为。",
       "source": "market",
       "badge": "community",
       "author": "",
@@ -572,13 +583,14 @@
       "sizeKb": 6,
       "weeklyDownloads": 69492,
       "deps": [],
-      "sha256": "969e4c969fb44cce5e8d746057ced1a09261e4d0f9511a4d6f249c4cdf49f39f"
+      "sha256": "969e4c969fb44cce5e8d746057ced1a09261e4d0f9511a4d6f249c4cdf49f39f",
+      "descriptionEn": ""
     },
     {
       "id": "markdown-it-highlightjs",
-      "name": "markdown-it-highlightjs",
+      "name": "highlight.js 代码高亮",
       "version": "4.3.0",
-      "description": "Preset to use highlight.js with markdown-it.",
+      "description": "用 highlight.js 替换代码高亮；注意：本应用内置 Prism 高亮，同时启用可能样式冲突。",
       "source": "market",
       "badge": "community",
       "author": "",
@@ -586,13 +598,14 @@
       "sizeKb": 9,
       "weeklyDownloads": 100038,
       "deps": [],
-      "sha256": "33578c8eac057ab8ffca32c8a772bf0e6f4be79fceb88ff5b866a971cff9ca4f"
+      "sha256": "33578c8eac057ab8ffca32c8a772bf0e6f4be79fceb88ff5b866a971cff9ca4f",
+      "descriptionEn": ""
     },
     {
       "id": "markdown-it-mdc",
-      "name": "markdown-it-mdc",
+      "name": "MDC 组件语法",
       "version": "0.2.12",
-      "description": "Markdown Components (MDC) support for markdown-it",
+      "description": "支持 Markdown Components（MDC）语法，Vue/Nuxt 生态常用；本应用不解析其组件逻辑，仅按容器渲染。",
       "source": "market",
       "badge": "community",
       "author": "",
@@ -600,13 +613,14 @@
       "sizeKb": 7,
       "weeklyDownloads": 65216,
       "deps": [],
-      "sha256": "54de953ca3d61c9e89d4ec1fc5eb9690a1490adc33aefb303a39bb650b9c3ad6"
+      "sha256": "54de953ca3d61c9e89d4ec1fc5eb9690a1490adc33aefb303a39bb650b9c3ad6",
+      "descriptionEn": ""
     },
     {
       "id": "markdown-it-multimd-table",
-      "name": "markdown-it-multimd-table",
+      "name": "MultiMarkdown 表格",
       "version": "4.2.3",
-      "description": "Multimarkdown table syntax plugin for markdown-it markdown parser",
+      "description": "扩展表格语法，支持单元格合并、多行表头等写法。",
       "source": "market",
       "badge": "community",
       "author": "",
@@ -614,13 +628,14 @@
       "sizeKb": 20,
       "weeklyDownloads": 45570,
       "deps": [],
-      "sha256": "9107388dff4a88e973dc1de64e2e7e23c7b79930e0ca25a8cf54acf88bf747a7"
+      "sha256": "9107388dff4a88e973dc1de64e2e7e23c7b79930e0ca25a8cf54acf88bf747a7",
+      "descriptionEn": ""
     },
     {
       "id": "markdown-it-task-lists",
-      "name": "markdown-it-task-lists",
+      "name": "任务列表",
       "version": "2.1.1",
-      "description": "A markdown-it plugin to create GitHub-style task lists",
+      "description": "渲染 GitHub 风格任务列表（- [x] / - [ ]），只读展示，不会回写文件。",
       "source": "market",
       "badge": "community",
       "author": "",
@@ -628,13 +643,14 @@
       "sizeKb": 6,
       "weeklyDownloads": 4254004,
       "deps": [],
-      "sha256": "8e9ed515296f11d716a6460c0bd35ffa163003a373a6d8f65d53ea9f8aec667e"
+      "sha256": "8e9ed515296f11d716a6460c0bd35ffa163003a373a6d8f65d53ea9f8aec667e",
+      "descriptionEn": ""
     },
     {
       "id": "markdown-it-theme",
-      "name": "markdown-it-theme",
+      "name": "渲染主题",
       "version": "0.4.0",
-      "description": "A markdown-it plugin for theme customization.",
+      "description": "给渲染结果套用自定义主题类名，便于配合自定义 CSS；不含现成配色。",
       "source": "market",
       "badge": "community",
       "author": "",
@@ -642,13 +658,14 @@
       "sizeKb": 3,
       "weeklyDownloads": 69497,
       "deps": [],
-      "sha256": "cf6b729c5fef6022b1e546de83e9992294cc95152cd5dab671ca7aa7eebaa166"
+      "sha256": "cf6b729c5fef6022b1e546de83e9992294cc95152cd5dab671ca7aa7eebaa166",
+      "descriptionEn": ""
     },
     {
       "id": "markdown-it-toc-done-right",
-      "name": "markdown-it-toc-done-right",
+      "name": "目录生成",
       "version": "4.2.0",
-      "description": "Table of contents (TOC) for markdown-it markdown parser with focus on semantic and security.",
+      "description": "在正文中插入 [TOC] 生成目录并支持锚点跳转；注意：本应用右侧已有大纲面板。",
       "source": "market",
       "badge": "community",
       "author": "",
@@ -656,7 +673,8 @@
       "sizeKb": 15,
       "weeklyDownloads": 63767,
       "deps": [],
-      "sha256": "41cee33e5ab120bd3820f3e83e412879514d4e2fe5c7f369e5c4fda2028af64d"
+      "sha256": "41cee33e5ab120bd3820f3e83e412879514d4e2fe5c7f369e5c4fda2028af64d",
+      "descriptionEn": ""
     }
   ]
 }
