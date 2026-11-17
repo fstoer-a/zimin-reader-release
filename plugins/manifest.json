@@ -1,7 +1,171 @@
 {
   "version": "1.0.0",
-  "updatedAt": "2026-11-15T00:00:00Z",
+  "updatedAt": "2026-11-17T17:32:43Z",
   "plugins": [
+    {
+      "id": "@vscode/markdown-it-katex",
+      "name": "数学公式（增强版）",
+      "version": "1.1.2",
+      "description": "微软维护的 KaTeX 渲染，$E=mc^2$ 行内、$$块级$$公式。已内置，安装为覆盖升级。",
+      "descriptionEn": "@vscode/markdown-it-katex",
+      "source": "market",
+      "badge": "ai-reviewed",
+      "review": {
+        "reviewedAt": "2026-11-15",
+        "sha256": "763ae1c76cda85d2ef066cc25908e9a1ffa7c6becef83942f5e891006aff5c94",
+        "scanHits": 0,
+        "notes": "源码扫描零命中"
+      },
+      "author": "kaimaetzel",
+      "download": "https://registry.npmjs.org/@vscode/markdown-it-katex/-/markdown-it-katex-1.1.2.tgz",
+      "sizeKb": 26,
+      "deps": [
+        "katex"
+      ],
+      "homepage": "https://www.npmjs.com/package/@vscode/markdown-it-katex"
+    },
+    {
+      "id": "markdown-it-abbr",
+      "name": "缩写标注",
+      "version": "2.0.0",
+      "description": "定义缩写词的完整含义，鼠标悬停显示。*[HTML]: 超文本标记语言",
+      "descriptionEn": "markdown-it-abbr",
+      "source": "market",
+      "badge": "ai-reviewed",
+      "review": {
+        "reviewedAt": "2026-11-15",
+        "sha256": "61d4b33f587eeeac21b612946e8908f2be29e806e8bf47d2e2d13b89011211fb",
+        "scanHits": 0,
+        "notes": "源码扫描零命中"
+      },
+      "author": "vitaly",
+      "download": "https://registry.npmjs.org/markdown-it-abbr/-/markdown-it-abbr-2.0.0.tgz",
+      "sizeKb": 21,
+      "deps": [],
+      "homepage": "https://www.npmjs.com/package/markdown-it-abbr"
+    },
+    {
+      "id": "markdown-it-anchor",
+      "name": "标题锚点",
+      "version": "10.1.0",
+      "description": "自动给每个标题生成 id 锚点，方便页内跳转与外部链接定位。",
+      "descriptionEn": "markdown-it-anchor",
+      "source": "market",
+      "badge": "ai-reviewed",
+      "review": {
+        "reviewedAt": "2026-11-15",
+        "sha256": "4576a1f8bca5f20d28dbc89a2642167f11ea52701f60814898b3af5d303fad57",
+        "scanHits": 0,
+        "notes": "源码扫描零命中"
+      },
+      "author": "valeriangalliat",
+      "download": "https://registry.npmjs.org/markdown-it-anchor/-/markdown-it-anchor-10.1.0.tgz",
+      "sizeKb": 136,
+      "deps": [],
+      "homepage": "https://www.npmjs.com/package/markdown-it-anchor"
+    },
+    {
+      "id": "markdown-it-attrs",
+      "name": "属性注入",
+      "version": "5.0.1",
+      "description": "在标题/段落/代码块后加 {.class #id} 语法设置 HTML 属性，进阶用户自定义样式用。",
+      "descriptionEn": "markdown-it-attrs",
+      "source": "market",
+      "badge": "ai-reviewed",
+      "review": {
+        "reviewedAt": "2026-11-15",
+        "sha256": "7473022b896a87624e60576f31b19b741a4bc95ebcaa09fc385dd936e0245b26",
+        "scanHits": 0,
+        "notes": "源码扫描零命中"
+      },
+      "author": "arve0",
+      "download": "https://registry.npmjs.org/markdown-it-attrs/-/markdown-it-attrs-5.0.1.tgz",
+      "sizeKb": 413,
+      "deps": [],
+      "homepage": "https://www.npmjs.com/package/markdown-it-attrs"
+    },
+    {
+      "id": "markdown-it-cjk-friendly",
+      "name": "中日韩断行优化",
+      "version": "3.0.0",
+      "description": "优化中日韩文字的强调语法（**加粗**前后贴中文时不失效）。",
+      "descriptionEn": "markdown-it-cjk-friendly",
+      "source": "market",
+      "badge": "ai-reviewed",
+      "review": {
+        "reviewedAt": "2026-11-15",
+        "sha256": "4b9f27ab17f23bb56a8cfa685972f1e9cd8e111dbf530a5a44cc511103ecd44c",
+        "scanHits": 0,
+        "notes": "源码扫描零命中"
+      },
+      "author": "tats-u",
+      "download": "https://registry.npmjs.org/markdown-it-cjk-friendly/-/markdown-it-cjk-friendly-3.0.0.tgz",
+      "sizeKb": 25,
+      "deps": [
+        "get-east-asian-width"
+      ],
+      "homepage": "https://www.npmjs.com/package/markdown-it-cjk-friendly"
+    },
+    {
+      "id": "markdown-it-container",
+      "name": "自定义容器",
+      "version": "4.0.0",
+      "description": "::: warning 这样的语法创建带 class 的容器区块，常用于提示框/警告框。",
+      "descriptionEn": "markdown-it-container",
+      "source": "market",
+      "badge": "ai-reviewed",
+      "review": {
+        "reviewedAt": "2026-11-15",
+        "sha256": "d5bd78dd73d50aeedc5855bd33311a20716cf6a215d7bb7d862c337d011e58d0",
+        "scanHits": 0,
+        "notes": "源码扫描零命中"
+      },
+      "author": "vitaly",
+      "download": "https://registry.npmjs.org/markdown-it-container/-/markdown-it-container-4.0.0.tgz",
+      "sizeKb": 20,
+      "deps": [],
+      "homepage": "https://www.npmjs.com/package/markdown-it-container"
+    },
+    {
+      "id": "markdown-it-deflist",
+      "name": "定义列表",
+      "version": "4.0.0",
+      "description": "术语下方缩进写定义，生成规范的 <dl> 定义列表。",
+      "descriptionEn": "markdown-it-deflist",
+      "source": "market",
+      "badge": "ai-reviewed",
+      "review": {
+        "reviewedAt": "2026-11-15",
+        "sha256": "eb70f804a1619fe933b5e8b0c2ec2a96a4cd85265bfd56d09d763822b268f3d0",
+        "scanHits": 0,
+        "notes": "源码扫描零命中"
+      },
+      "author": "vitaly",
+      "download": "https://registry.npmjs.org/markdown-it-deflist/-/markdown-it-deflist-4.0.0.tgz",
+      "sizeKb": 26,
+      "deps": [],
+      "homepage": "https://www.npmjs.com/package/markdown-it-deflist"
+    },
+    {
+      "id": "markdown-it-dollarmath",
+      "name": "Dollar 数学",
+      "version": "0.5.0",
+      "description": "Obsidian 风格的 $...$ / $$...$$ 数学语法。",
+      "descriptionEn": "markdown-it-dollarmath",
+      "source": "market",
+      "badge": "ai-reviewed",
+      "review": {
+        "reviewedAt": "2026-11-15",
+        "sha256": "226d138dc84291afcd686956f364c2dc69669630f30c0bb92849cd607b3587a0",
+        "scanHits": 0,
+        "notes": "源码扫描零命中"
+      },
+      "author": "rowanc1",
+      "download": "https://registry.npmjs.org/markdown-it-dollarmath/-/markdown-it-dollarmath-0.5.0.tgz",
+      "sizeKb": 629,
+      "deps": [],
+      "homepage": "https://www.npmjs.com/package/markdown-it-dollarmath"
+    },
     {
       "id": "markdown-it-emoji",
       "name": "Emoji 表情",
@@ -23,24 +187,44 @@
       "homepage": "https://www.npmjs.com/package/markdown-it-emoji"
     },
     {
-      "id": "markdown-it-mark",
-      "name": "高亮标记",
-      "version": "4.0.0",
-      "description": "使用 ==文字== 语法给文字加黄色高亮标记。示例：==这段话很重要==",
-      "descriptionEn": "markdown-it-mark",
+      "id": "markdown-it-github-alerts",
+      "name": "GitHub 提示框",
+      "version": "1.0.1",
+      "description": "支持 GitHub 风格的 > [!NOTE] / [!WARNING] 提示框渲染。",
+      "descriptionEn": "markdown-it-github-alerts",
       "source": "market",
       "badge": "ai-reviewed",
       "review": {
         "reviewedAt": "2026-11-15",
-        "sha256": "9705e91a79a1824079b7011b7059d51bb78cf47b8342039bec4fa487aeb3e63c",
+        "sha256": "14e3314c7092c981224ddba616807977bb8f8fee7b5afd7f06af4f443a595711",
         "scanHits": 0,
         "notes": "源码扫描零命中"
       },
-      "author": "vitaly",
-      "download": "https://registry.npmjs.org/markdown-it-mark/-/markdown-it-mark-4.0.0.tgz",
+      "author": "antfu",
+      "download": "https://registry.npmjs.org/markdown-it-github-alerts/-/markdown-it-github-alerts-1.0.1.tgz",
       "sizeKb": 15,
       "deps": [],
-      "homepage": "https://www.npmjs.com/package/markdown-it-mark"
+      "homepage": "https://www.npmjs.com/package/markdown-it-github-alerts"
+    },
+    {
+      "id": "markdown-it-image-figures",
+      "name": "图片转插图",
+      "version": "2.1.1",
+      "description": "单独成段的图片自动转为 <figure>，可带 <figcaption> 说明。",
+      "descriptionEn": "markdown-it-image-figures",
+      "source": "market",
+      "badge": "ai-reviewed",
+      "review": {
+        "reviewedAt": "2026-11-15",
+        "sha256": "03f3dc40e6f758339258adbc25b3d50c4c1e60fc837a53137c6880c2e2b716da",
+        "scanHits": 0,
+        "notes": "源码扫描零命中"
+      },
+      "author": "alaguna",
+      "download": "https://registry.npmjs.org/markdown-it-image-figures/-/markdown-it-image-figures-2.1.1.tgz",
+      "sizeKb": 22,
+      "deps": [],
+      "homepage": "https://www.npmjs.com/package/markdown-it-image-figures"
     },
     {
       "id": "markdown-it-ins",
@@ -61,6 +245,46 @@
       "sizeKb": 15,
       "deps": [],
       "homepage": "https://www.npmjs.com/package/markdown-it-ins"
+    },
+    {
+      "id": "markdown-it-link-attributes",
+      "name": "链接属性",
+      "version": "4.0.1",
+      "description": "给外链统一加 target=_blank / rel=noopener 等属性。",
+      "descriptionEn": "markdown-it-link-attributes",
+      "source": "market",
+      "badge": "ai-reviewed",
+      "review": {
+        "reviewedAt": "2026-11-15",
+        "sha256": "7ee2ee700ad806be716c9b2180187ff74cf4a3d5fd6b255b4a382fce7ae79402",
+        "scanHits": 0,
+        "notes": "源码扫描零命中"
+      },
+      "author": "bladebarringer",
+      "download": "https://registry.npmjs.org/markdown-it-link-attributes/-/markdown-it-link-attributes-4.0.1.tgz",
+      "sizeKb": 14,
+      "deps": [],
+      "homepage": "https://www.npmjs.com/package/markdown-it-link-attributes"
+    },
+    {
+      "id": "markdown-it-mark",
+      "name": "高亮标记",
+      "version": "4.0.0",
+      "description": "使用 ==文字== 语法给文字加黄色高亮标记。示例：==这段话很重要==",
+      "descriptionEn": "markdown-it-mark",
+      "source": "market",
+      "badge": "ai-reviewed",
+      "review": {
+        "reviewedAt": "2026-11-15",
+        "sha256": "9705e91a79a1824079b7011b7059d51bb78cf47b8342039bec4fa487aeb3e63c",
+        "scanHits": 0,
+        "notes": "源码扫描零命中"
+      },
+      "author": "vitaly",
+      "download": "https://registry.npmjs.org/markdown-it-mark/-/markdown-it-mark-4.0.0.tgz",
+      "sizeKb": 15,
+      "deps": [],
+      "homepage": "https://www.npmjs.com/package/markdown-it-mark"
     },
     {
       "id": "markdown-it-sub",
@@ -103,104 +327,24 @@
       "homepage": "https://www.npmjs.com/package/markdown-it-sup"
     },
     {
-      "id": "markdown-it-attrs",
-      "name": "属性注入",
-      "version": "5.0.1",
-      "description": "在标题/段落/代码块后加 {.class #id} 语法设置 HTML 属性，进阶用户自定义样式用。",
-      "descriptionEn": "markdown-it-attrs",
+      "id": "markdown-it-table",
+      "name": "表格增强",
+      "version": "5.0.0",
+      "description": "扩展表格语法能力。",
+      "descriptionEn": "markdown-it-table",
       "source": "market",
       "badge": "ai-reviewed",
       "review": {
         "reviewedAt": "2026-11-15",
-        "sha256": "7473022b896a87624e60576f31b19b741a4bc95ebcaa09fc385dd936e0245b26",
+        "sha256": "01d40f23f8f13285c9b4c7097b9c32293e7387abf9c2327866cd06b3ece974d4",
         "scanHits": 0,
         "notes": "源码扫描零命中"
       },
-      "author": "arve0",
-      "download": "https://registry.npmjs.org/markdown-it-attrs/-/markdown-it-attrs-5.0.1.tgz",
-      "sizeKb": 413,
-      "deps": [],
-      "homepage": "https://www.npmjs.com/package/markdown-it-attrs"
-    },
-    {
-      "id": "markdown-it-container",
-      "name": "自定义容器",
-      "version": "4.0.0",
-      "description": "::: warning 这样的语法创建带 class 的容器区块，常用于提示框/警告框。",
-      "descriptionEn": "markdown-it-container",
-      "source": "market",
-      "badge": "ai-reviewed",
-      "review": {
-        "reviewedAt": "2026-11-15",
-        "sha256": "d5bd78dd73d50aeedc5855bd33311a20716cf6a215d7bb7d862c337d011e58d0",
-        "scanHits": 0,
-        "notes": "源码扫描零命中"
-      },
-      "author": "vitaly",
-      "download": "https://registry.npmjs.org/markdown-it-container/-/markdown-it-container-4.0.0.tgz",
-      "sizeKb": 20,
-      "deps": [],
-      "homepage": "https://www.npmjs.com/package/markdown-it-container"
-    },
-    {
-      "id": "markdown-it-abbr",
-      "name": "缩写标注",
-      "version": "2.0.0",
-      "description": "定义缩写词的完整含义，鼠标悬停显示。*[HTML]: 超文本标记语言",
-      "descriptionEn": "markdown-it-abbr",
-      "source": "market",
-      "badge": "ai-reviewed",
-      "review": {
-        "reviewedAt": "2026-11-15",
-        "sha256": "61d4b33f587eeeac21b612946e8908f2be29e806e8bf47d2e2d13b89011211fb",
-        "scanHits": 0,
-        "notes": "源码扫描零命中"
-      },
-      "author": "vitaly",
-      "download": "https://registry.npmjs.org/markdown-it-abbr/-/markdown-it-abbr-2.0.0.tgz",
+      "author": "1999",
+      "download": "https://registry.npmjs.org/markdown-it-table/-/markdown-it-table-5.0.0.tgz",
       "sizeKb": 21,
       "deps": [],
-      "homepage": "https://www.npmjs.com/package/markdown-it-abbr"
-    },
-    {
-      "id": "markdown-it-deflist",
-      "name": "定义列表",
-      "version": "4.0.0",
-      "description": "术语下方缩进写定义，生成规范的 <dl> 定义列表。",
-      "descriptionEn": "markdown-it-deflist",
-      "source": "market",
-      "badge": "ai-reviewed",
-      "review": {
-        "reviewedAt": "2026-11-15",
-        "sha256": "eb70f804a1619fe933b5e8b0c2ec2a96a4cd85265bfd56d09d763822b268f3d0",
-        "scanHits": 0,
-        "notes": "源码扫描零命中"
-      },
-      "author": "vitaly",
-      "download": "https://registry.npmjs.org/markdown-it-deflist/-/markdown-it-deflist-4.0.0.tgz",
-      "sizeKb": 26,
-      "deps": [],
-      "homepage": "https://www.npmjs.com/package/markdown-it-deflist"
-    },
-    {
-      "id": "markdown-it-anchor",
-      "name": "标题锚点",
-      "version": "10.1.0",
-      "description": "自动给每个标题生成 id 锚点，方便页内跳转与外部链接定位。",
-      "descriptionEn": "markdown-it-anchor",
-      "source": "market",
-      "badge": "ai-reviewed",
-      "review": {
-        "reviewedAt": "2026-11-15",
-        "sha256": "4576a1f8bca5f20d28dbc89a2642167f11ea52701f60814898b3af5d303fad57",
-        "scanHits": 0,
-        "notes": "源码扫描零命中"
-      },
-      "author": "valeriangalliat",
-      "download": "https://registry.npmjs.org/markdown-it-anchor/-/markdown-it-anchor-10.1.0.tgz",
-      "sizeKb": 136,
-      "deps": [],
-      "homepage": "https://www.npmjs.com/package/markdown-it-anchor"
+      "homepage": "https://www.npmjs.com/package/markdown-it-table"
     },
     {
       "id": "markdown-it-table-of-contents",
@@ -223,108 +367,24 @@
       "homepage": "https://www.npmjs.com/package/markdown-it-table-of-contents"
     },
     {
-      "id": "markdown-it-link-attributes",
-      "name": "链接属性",
-      "version": "4.0.1",
-      "description": "给外链统一加 target=_blank / rel=noopener 等属性。",
-      "descriptionEn": "markdown-it-link-attributes",
+      "id": "markdown-it-task-checkbox",
+      "name": "任务复选框增强",
+      "version": "1.0.6",
+      "description": "给 - [ ] 任务列表渲染真实可点的复选框。",
+      "descriptionEn": "markdown-it-task-checkbox",
       "source": "market",
       "badge": "ai-reviewed",
       "review": {
         "reviewedAt": "2026-11-15",
-        "sha256": "7ee2ee700ad806be716c9b2180187ff74cf4a3d5fd6b255b4a382fce7ae79402",
-        "scanHits": 0,
-        "notes": "源码扫描零命中"
+        "sha256": "326007dea61d28f769a8b510b9cc9b349b8befb11afbce75fbc5a3f5f683dd8e",
+        "scanHits": 1,
+        "notes": "唯一命中在测试文件，非运行时代码"
       },
-      "author": "bladebarringer",
-      "download": "https://registry.npmjs.org/markdown-it-link-attributes/-/markdown-it-link-attributes-4.0.1.tgz",
-      "sizeKb": 14,
+      "author": "linsir",
+      "download": "https://registry.npmjs.org/markdown-it-task-checkbox/-/markdown-it-task-checkbox-1.0.6.tgz",
+      "sizeKb": 0,
       "deps": [],
-      "homepage": "https://www.npmjs.com/package/markdown-it-link-attributes"
-    },
-    {
-      "id": "markdown-it-image-figures",
-      "name": "图片转插图",
-      "version": "2.1.1",
-      "description": "单独成段的图片自动转为 <figure>，可带 <figcaption> 说明。",
-      "descriptionEn": "markdown-it-image-figures",
-      "source": "market",
-      "badge": "ai-reviewed",
-      "review": {
-        "reviewedAt": "2026-11-15",
-        "sha256": "03f3dc40e6f758339258adbc25b3d50c4c1e60fc837a53137c6880c2e2b716da",
-        "scanHits": 0,
-        "notes": "源码扫描零命中"
-      },
-      "author": "alaguna",
-      "download": "https://registry.npmjs.org/markdown-it-image-figures/-/markdown-it-image-figures-2.1.1.tgz",
-      "sizeKb": 22,
-      "deps": [],
-      "homepage": "https://www.npmjs.com/package/markdown-it-image-figures"
-    },
-    {
-      "id": "markdown-it-github-alerts",
-      "name": "GitHub 提示框",
-      "version": "1.0.1",
-      "description": "支持 GitHub 风格的 > [!NOTE] / [!WARNING] 提示框渲染。",
-      "descriptionEn": "markdown-it-github-alerts",
-      "source": "market",
-      "badge": "ai-reviewed",
-      "review": {
-        "reviewedAt": "2026-11-15",
-        "sha256": "14e3314c7092c981224ddba616807977bb8f8fee7b5afd7f06af4f443a595711",
-        "scanHits": 0,
-        "notes": "源码扫描零命中"
-      },
-      "author": "antfu",
-      "download": "https://registry.npmjs.org/markdown-it-github-alerts/-/markdown-it-github-alerts-1.0.1.tgz",
-      "sizeKb": 15,
-      "deps": [],
-      "homepage": "https://www.npmjs.com/package/markdown-it-github-alerts"
-    },
-    {
-      "id": "markdown-it-cjk-friendly",
-      "name": "中日韩断行优化",
-      "version": "3.0.0",
-      "description": "优化中日韩文字的强调语法（**加粗**前后贴中文时不失效）。",
-      "descriptionEn": "markdown-it-cjk-friendly",
-      "source": "market",
-      "badge": "ai-reviewed",
-      "review": {
-        "reviewedAt": "2026-11-15",
-        "sha256": "4b9f27ab17f23bb56a8cfa685972f1e9cd8e111dbf530a5a44cc511103ecd44c",
-        "scanHits": 0,
-        "notes": "源码扫描零命中"
-      },
-      "author": "tats-u",
-      "download": "https://registry.npmjs.org/markdown-it-cjk-friendly/-/markdown-it-cjk-friendly-3.0.0.tgz",
-      "sizeKb": 25,
-      "deps": [
-        "get-east-asian-width"
-      ],
-      "homepage": "https://www.npmjs.com/package/markdown-it-cjk-friendly"
-    },
-    {
-      "id": "@vscode__markdown-it-katex",
-      "name": "数学公式（增强版）",
-      "version": "1.1.2",
-      "description": "微软维护的 KaTeX 渲染，$E=mc^2$ 行内、$$块级$$公式。已内置，安装为覆盖升级。",
-      "descriptionEn": "@vscode/markdown-it-katex",
-      "source": "market",
-      "badge": "ai-reviewed",
-      "review": {
-        "reviewedAt": "2026-11-15",
-        "sha256": "763ae1c76cda85d2ef066cc25908e9a1ffa7c6becef83942f5e891006aff5c94",
-        "scanHits": 0,
-        "notes": "源码扫描零命中"
-      },
-      "author": "kaimaetzel",
-      "download": "https://registry.npmjs.org/@vscode/markdown-it-katex/-/markdown-it-katex-1.1.2.tgz",
-      "sizeKb": 26,
-      "deps": [
-        "katex"
-      ],
-      "homepage": "https://www.npmjs.com/package/@vscode/markdown-it-katex"
+      "homepage": "https://www.npmjs.com/package/markdown-it-task-checkbox"
     },
     {
       "id": "markdown-it-texmath",
@@ -347,64 +407,256 @@
       "homepage": "https://www.npmjs.com/package/markdown-it-texmath"
     },
     {
-      "id": "markdown-it-dollarmath",
-      "name": "Dollar 数学",
+      "id": "@mdit/plugin-alert",
+      "name": "@mdit/plugin-alert",
+      "version": "2.2.0",
+      "description": "GFM Markdown alert plugin for MarkdownIt",
+      "source": "market",
+      "badge": "community",
+      "author": "",
+      "download": "https://registry.npmjs.org/@mdit/plugin-alert/-/plugin-alert-2.2.0.tgz",
+      "sizeKb": 13,
+      "weeklyDownloads": 653846,
+      "deps": [],
+      "sha256": "8f3e0d592f70979c1efdf3fd3096d12fc7c372ec5b03fe45122c4833d5524059"
+    },
+    {
+      "id": "@mdit/plugin-attrs",
+      "name": "@mdit/plugin-attrs",
+      "version": "1.5.0",
+      "description": "Attrs plugin for MarkdownIt",
+      "source": "market",
+      "badge": "community",
+      "author": "",
+      "download": "https://registry.npmjs.org/@mdit/plugin-attrs/-/plugin-attrs-1.5.0.tgz",
+      "sizeKb": 58,
+      "weeklyDownloads": 52508,
+      "deps": [],
+      "sha256": "66e7b82f4d2ab474bf9f819ca52389e1129f02b8a27e86c99bfabb013abbb727"
+    },
+    {
+      "id": "@mdit/plugin-container",
+      "name": "@mdit/plugin-container",
+      "version": "2.2.0",
+      "description": "Container plugin for MarkdownIt",
+      "source": "market",
+      "badge": "community",
+      "author": "",
+      "download": "https://registry.npmjs.org/@mdit/plugin-container/-/plugin-container-2.2.0.tgz",
+      "sizeKb": 9,
+      "weeklyDownloads": 60586,
+      "deps": [],
+      "sha256": "662a877d22f95c13c28a7aa7760d27b9c64c4c699279b33c12df0a50293a9554"
+    },
+    {
+      "id": "@mdit/plugin-inline-rule",
+      "name": "@mdit/plugin-inline-rule",
+      "version": "2.2.5",
+      "description": "inline-rule plugin for MarkdownIt",
+      "source": "market",
+      "badge": "community",
+      "author": "",
+      "download": "https://registry.npmjs.org/@mdit/plugin-inline-rule/-/plugin-inline-rule-2.2.5.tgz",
+      "sizeKb": 12,
+      "weeklyDownloads": 49813,
+      "deps": [],
+      "sha256": "eccd4f6df6224a3956784128895cb7b0b46f734a7df174050f0c2cb4b1726214"
+    },
+    {
+      "id": "@mdit/plugin-sub",
+      "name": "@mdit/plugin-sub",
+      "version": "1.2.0",
+      "description": "Subscript plugin for MarkdownIt",
+      "source": "market",
+      "badge": "community",
+      "author": "",
+      "download": "https://registry.npmjs.org/@mdit/plugin-sub/-/plugin-sub-1.2.0.tgz",
+      "sizeKb": 6,
+      "weeklyDownloads": 51135,
+      "deps": [],
+      "sha256": "c374442db2c18b6ed838710e374afc6f1ed1e978a3943727a8e12cd999cd31f3"
+    },
+    {
+      "id": "@mdit/plugin-sup",
+      "name": "@mdit/plugin-sup",
+      "version": "1.2.0",
+      "description": "Superscript plugin for MarkdownIt",
+      "source": "market",
+      "badge": "community",
+      "author": "",
+      "download": "https://registry.npmjs.org/@mdit/plugin-sup/-/plugin-sup-1.2.0.tgz",
+      "sizeKb": 6,
+      "weeklyDownloads": 51016,
+      "deps": [],
+      "sha256": "a5a82fcbe539e10abe1a66cc05c2c330fe19e2187f8b10b25010d81734e7aae1"
+    },
+    {
+      "id": "@mdit/plugin-tab",
+      "name": "@mdit/plugin-tab",
+      "version": "2.1.1",
+      "description": "Tab plugin for MarkdownIt",
+      "source": "market",
+      "badge": "community",
+      "author": "",
+      "download": "https://registry.npmjs.org/@mdit/plugin-tab/-/plugin-tab-2.1.1.tgz",
+      "sizeKb": 19,
+      "weeklyDownloads": 52322,
+      "deps": [],
+      "sha256": "9b6f370b9153ac38510012d7d89e8abd5ff20afd420bc423f889c6bda28f5dcd"
+    },
+    {
+      "id": "@mdit/plugin-tex",
+      "name": "@mdit/plugin-tex",
+      "version": "1.3.0",
+      "description": "Tex plugin for MarkdownIt",
+      "source": "market",
+      "badge": "community",
+      "author": "",
+      "download": "https://registry.npmjs.org/@mdit/plugin-tex/-/plugin-tex-1.3.0.tgz",
+      "sizeKb": 14,
+      "weeklyDownloads": 50313,
+      "deps": [],
+      "sha256": "01dabc250c027d6d0a5a32647ea0dd392db00855cf53f4b9f46e3212f5a9945b"
+    },
+    {
+      "id": "markdown-it-footnote",
+      "name": "markdown-it-footnote",
+      "version": "4.0.0",
+      "description": "Footnotes for markdown-it markdown parser.",
+      "source": "market",
+      "badge": "community",
+      "author": "",
+      "download": "https://registry.npmjs.org/markdown-it-footnote/-/markdown-it-footnote-4.0.0.tgz",
+      "sizeKb": 9,
+      "weeklyDownloads": 1018123,
+      "deps": [],
+      "sha256": "319e1c784b74a73b473e76a1bb725d3770c5a2e409dfd8c30c504f3a2712e272"
+    },
+    {
+      "id": "markdown-it-for-inline",
+      "name": "markdown-it-for-inline",
+      "version": "2.0.1",
+      "description": "Inline tokens iterator for markdown-it markdown parser.",
+      "source": "market",
+      "badge": "community",
+      "author": "",
+      "download": "https://registry.npmjs.org/markdown-it-for-inline/-/markdown-it-for-inline-2.0.1.tgz",
+      "sizeKb": 3,
+      "weeklyDownloads": 55759,
+      "deps": [],
+      "sha256": "4b7ced6b6f9b70ae0180883550c3fcb56dda0296b6c52ce7d32faa0129aa095e"
+    },
+    {
+      "id": "markdown-it-front-matter",
+      "name": "markdown-it-front-matter",
+      "version": "0.2.4",
+      "description": "Plugin to process front matter container for markdown-it markdown parser",
+      "source": "market",
+      "badge": "community",
+      "author": "",
+      "download": "https://registry.npmjs.org/markdown-it-front-matter/-/markdown-it-front-matter-0.2.4.tgz",
+      "sizeKb": 4,
+      "weeklyDownloads": 175225,
+      "deps": [],
+      "sha256": "2e40bc3ca61af2a54f8e0876790deae77117f47eccd6ce43e0968eecc932adf9"
+    },
+    {
+      "id": "markdown-it-github",
+      "name": "markdown-it-github",
       "version": "0.5.0",
-      "description": "Obsidian 风格的 $...$ / $$...$$ 数学语法。",
-      "descriptionEn": "markdown-it-dollarmath",
+      "description": "A markdown-it plugin to generate github style markdown.",
       "source": "market",
-      "badge": "ai-reviewed",
-      "review": {
-        "reviewedAt": "2026-11-15",
-        "sha256": "226d138dc84291afcd686956f364c2dc69669630f30c0bb92849cd607b3587a0",
-        "scanHits": 0,
-        "notes": "源码扫描零命中"
-      },
-      "author": "rowanc1",
-      "download": "https://registry.npmjs.org/markdown-it-dollarmath/-/markdown-it-dollarmath-0.5.0.tgz",
-      "sizeKb": 629,
+      "badge": "community",
+      "author": "",
+      "download": "https://registry.npmjs.org/markdown-it-github/-/markdown-it-github-0.5.0.tgz",
+      "sizeKb": 6,
+      "weeklyDownloads": 69492,
       "deps": [],
-      "homepage": "https://www.npmjs.com/package/markdown-it-dollarmath"
+      "sha256": "969e4c969fb44cce5e8d746057ced1a09261e4d0f9511a4d6f249c4cdf49f39f"
     },
     {
-      "id": "markdown-it-task-checkbox",
-      "name": "任务复选框增强",
-      "version": "1.0.6",
-      "description": "给 - [ ] 任务列表渲染真实可点的复选框。",
-      "descriptionEn": "markdown-it-task-checkbox",
+      "id": "markdown-it-highlightjs",
+      "name": "markdown-it-highlightjs",
+      "version": "4.3.0",
+      "description": "Preset to use highlight.js with markdown-it.",
       "source": "market",
-      "badge": "ai-reviewed",
-      "review": {
-        "reviewedAt": "2026-11-15",
-        "sha256": "326007dea61d28f769a8b510b9cc9b349b8befb11afbce75fbc5a3f5f683dd8e",
-        "scanHits": 1,
-        "notes": "唯一命中在测试文件，非运行时代码"
-      },
-      "author": "linsir",
-      "download": "https://registry.npmjs.org/markdown-it-task-checkbox/-/markdown-it-task-checkbox-1.0.6.tgz",
-      "sizeKb": 0,
+      "badge": "community",
+      "author": "",
+      "download": "https://registry.npmjs.org/markdown-it-highlightjs/-/markdown-it-highlightjs-4.3.0.tgz",
+      "sizeKb": 9,
+      "weeklyDownloads": 100038,
       "deps": [],
-      "homepage": "https://www.npmjs.com/package/markdown-it-task-checkbox"
+      "sha256": "33578c8eac057ab8ffca32c8a772bf0e6f4be79fceb88ff5b866a971cff9ca4f"
     },
     {
-      "id": "markdown-it-table",
-      "name": "表格增强",
-      "version": "5.0.0",
-      "description": "扩展表格语法能力。",
-      "descriptionEn": "markdown-it-table",
+      "id": "markdown-it-mdc",
+      "name": "markdown-it-mdc",
+      "version": "0.2.12",
+      "description": "Markdown Components (MDC) support for markdown-it",
       "source": "market",
-      "badge": "ai-reviewed",
-      "review": {
-        "reviewedAt": "2026-11-15",
-        "sha256": "01d40f23f8f13285c9b4c7097b9c32293e7387abf9c2327866cd06b3ece974d4",
-        "scanHits": 0,
-        "notes": "源码扫描零命中"
-      },
-      "author": "1999",
-      "download": "https://registry.npmjs.org/markdown-it-table/-/markdown-it-table-5.0.0.tgz",
-      "sizeKb": 21,
+      "badge": "community",
+      "author": "",
+      "download": "https://registry.npmjs.org/markdown-it-mdc/-/markdown-it-mdc-0.2.12.tgz",
+      "sizeKb": 7,
+      "weeklyDownloads": 65216,
       "deps": [],
-      "homepage": "https://www.npmjs.com/package/markdown-it-table"
+      "sha256": "54de953ca3d61c9e89d4ec1fc5eb9690a1490adc33aefb303a39bb650b9c3ad6"
+    },
+    {
+      "id": "markdown-it-multimd-table",
+      "name": "markdown-it-multimd-table",
+      "version": "4.2.3",
+      "description": "Multimarkdown table syntax plugin for markdown-it markdown parser",
+      "source": "market",
+      "badge": "community",
+      "author": "",
+      "download": "https://registry.npmjs.org/markdown-it-multimd-table/-/markdown-it-multimd-table-4.2.3.tgz",
+      "sizeKb": 20,
+      "weeklyDownloads": 45570,
+      "deps": [],
+      "sha256": "9107388dff4a88e973dc1de64e2e7e23c7b79930e0ca25a8cf54acf88bf747a7"
+    },
+    {
+      "id": "markdown-it-task-lists",
+      "name": "markdown-it-task-lists",
+      "version": "2.1.1",
+      "description": "A markdown-it plugin to create GitHub-style task lists",
+      "source": "market",
+      "badge": "community",
+      "author": "",
+      "download": "https://registry.npmjs.org/markdown-it-task-lists/-/markdown-it-task-lists-2.1.1.tgz",
+      "sizeKb": 6,
+      "weeklyDownloads": 4254004,
+      "deps": [],
+      "sha256": "8e9ed515296f11d716a6460c0bd35ffa163003a373a6d8f65d53ea9f8aec667e"
+    },
+    {
+      "id": "markdown-it-theme",
+      "name": "markdown-it-theme",
+      "version": "0.4.0",
+      "description": "A markdown-it plugin for theme customization.",
+      "source": "market",
+      "badge": "community",
+      "author": "",
+      "download": "https://registry.npmjs.org/markdown-it-theme/-/markdown-it-theme-0.4.0.tgz",
+      "sizeKb": 3,
+      "weeklyDownloads": 69497,
+      "deps": [],
+      "sha256": "cf6b729c5fef6022b1e546de83e9992294cc95152cd5dab671ca7aa7eebaa166"
+    },
+    {
+      "id": "markdown-it-toc-done-right",
+      "name": "markdown-it-toc-done-right",
+      "version": "4.2.0",
+      "description": "Table of contents (TOC) for markdown-it markdown parser with focus on semantic and security.",
+      "source": "market",
+      "badge": "community",
+      "author": "",
+      "download": "https://registry.npmjs.org/markdown-it-toc-done-right/-/markdown-it-toc-done-right-4.2.0.tgz",
+      "sizeKb": 15,
+      "weeklyDownloads": 63767,
+      "deps": [],
+      "sha256": "41cee33e5ab120bd3820f3e83e412879514d4e2fe5c7f369e5c4fda2028af64d"
     }
   ]
 }
