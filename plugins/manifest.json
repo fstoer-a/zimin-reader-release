@@ -1,6 +1,6 @@
 {
-  "version": "20261121.bcc6d224",
-  "updatedAt": "2026-11-21T16:52:46Z",
+  "version": "20261121.71c2e3c4",
+  "updatedAt": "2026-11-21T16:58:43Z",
   "plugins": [
     {
       "id": "@vscode/markdown-it-katex",
@@ -9229,7 +9229,7 @@
       "source": "market",
       "badge": "verified-pack",
       "sha256": "ac54d109e4854b3e5ea86fe7c81320aa8d71caf00b2632d5a43f018aaad328e8",
-      "download": "https://raw.githubusercontent.com/fstoer-a/zimin-reader-release/main/plugins/packs/markdown-it-collapsible-2.0.2.zip",
+      "download": "https://raw.githubusercontent.com/fstoer-a/zimin-reader-release/main/plugins/packs/markdown-it-collapsible-2.0.2-ac54d109.zip",
       "sizeKb": 3,
       "minApiVersion": 1,
       "category": "内容组织",
@@ -9248,7 +9248,7 @@
       "source": "market",
       "badge": "verified-pack",
       "sha256": "b411bd95986d3362af92876492514d842305d5b81e501785522cdc9fb1e58cb0",
-      "download": "https://raw.githubusercontent.com/fstoer-a/zimin-reader-release/main/plugins/packs/markdown-it-div-1.1.0.zip",
+      "download": "https://raw.githubusercontent.com/fstoer-a/zimin-reader-release/main/plugins/packs/markdown-it-div-1.1.0-b411bd95.zip",
       "sizeKb": 2,
       "minApiVersion": 1,
       "category": "排版增强",
@@ -9269,7 +9269,7 @@
       "source": "market",
       "badge": "verified-pack",
       "sha256": "e832935b39066e184f9fd7f989c39f29b7606a3cd7fb38a96c54c584687f9953",
-      "download": "https://raw.githubusercontent.com/fstoer-a/zimin-reader-release/main/plugins/packs/markdown-it-external-links-0.0.6.zip",
+      "download": "https://raw.githubusercontent.com/fstoer-a/zimin-reader-release/main/plugins/packs/markdown-it-external-links-0.0.6-e832935b.zip",
       "sizeKb": 2,
       "minApiVersion": 1,
       "category": "排版增强",
