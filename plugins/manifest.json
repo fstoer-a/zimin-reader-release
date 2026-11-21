@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "2026-11-17T18:24:53Z",
+  "updatedAt": "2026-11-21T16:11:22Z",
   "plugins": [
     {
       "id": "@vscode/markdown-it-katex",
@@ -22,7 +22,12 @@
       "deps": [
         "katex"
       ],
-      "homepage": "https://www.npmjs.com/package/@vscode/markdown-it-katex"
+      "homepage": "https://www.npmjs.com/package/@vscode/markdown-it-katex",
+      "reviewed": true,
+      "category": "代码与公式",
+      "conflicts": [
+        "formula"
+      ]
     },
     {
       "id": "markdown-it-abbr",
@@ -42,7 +47,9 @@
       "download": "https://registry.npmjs.org/markdown-it-abbr/-/markdown-it-abbr-2.0.0.tgz",
       "sizeKb": 21,
       "deps": [],
-      "homepage": "https://www.npmjs.com/package/markdown-it-abbr"
+      "homepage": "https://www.npmjs.com/package/markdown-it-abbr",
+      "reviewed": true,
+      "category": "排版增强"
     },
     {
       "id": "markdown-it-anchor",
@@ -62,7 +69,9 @@
       "download": "https://registry.npmjs.org/markdown-it-anchor/-/markdown-it-anchor-10.1.0.tgz",
       "sizeKb": 136,
       "deps": [],
-      "homepage": "https://www.npmjs.com/package/markdown-it-anchor"
+      "homepage": "https://www.npmjs.com/package/markdown-it-anchor",
+      "reviewed": true,
+      "category": "内容组织"
     },
     {
       "id": "markdown-it-attrs",
@@ -82,7 +91,12 @@
       "download": "https://registry.npmjs.org/markdown-it-attrs/-/markdown-it-attrs-5.0.1.tgz",
       "sizeKb": 413,
       "deps": [],
-      "homepage": "https://www.npmjs.com/package/markdown-it-attrs"
+      "homepage": "https://www.npmjs.com/package/markdown-it-attrs",
+      "reviewed": true,
+      "category": "排版增强",
+      "conflicts": [
+        "attrs"
+      ]
     },
     {
       "id": "markdown-it-cjk-friendly",
@@ -104,7 +118,9 @@
       "deps": [
         "get-east-asian-width"
       ],
-      "homepage": "https://www.npmjs.com/package/markdown-it-cjk-friendly"
+      "homepage": "https://www.npmjs.com/package/markdown-it-cjk-friendly",
+      "reviewed": true,
+      "category": "排版增强"
     },
     {
       "id": "markdown-it-container",
@@ -124,7 +140,12 @@
       "download": "https://registry.npmjs.org/markdown-it-container/-/markdown-it-container-4.0.0.tgz",
       "sizeKb": 20,
       "deps": [],
-      "homepage": "https://www.npmjs.com/package/markdown-it-container"
+      "homepage": "https://www.npmjs.com/package/markdown-it-container",
+      "reviewed": true,
+      "category": "排版增强",
+      "conflicts": [
+        "container"
+      ]
     },
     {
       "id": "markdown-it-deflist",
@@ -144,7 +165,9 @@
       "download": "https://registry.npmjs.org/markdown-it-deflist/-/markdown-it-deflist-4.0.0.tgz",
       "sizeKb": 26,
       "deps": [],
-      "homepage": "https://www.npmjs.com/package/markdown-it-deflist"
+      "homepage": "https://www.npmjs.com/package/markdown-it-deflist",
+      "reviewed": true,
+      "category": "排版增强"
     },
     {
       "id": "markdown-it-dollarmath",
@@ -164,7 +187,12 @@
       "download": "https://registry.npmjs.org/markdown-it-dollarmath/-/markdown-it-dollarmath-0.5.0.tgz",
       "sizeKb": 629,
       "deps": [],
-      "homepage": "https://www.npmjs.com/package/markdown-it-dollarmath"
+      "homepage": "https://www.npmjs.com/package/markdown-it-dollarmath",
+      "reviewed": true,
+      "category": "代码与公式",
+      "conflicts": [
+        "formula"
+      ]
     },
     {
       "id": "markdown-it-emoji",
@@ -184,7 +212,12 @@
       "download": "https://registry.npmjs.org/markdown-it-emoji/-/markdown-it-emoji-3.1.0.tgz",
       "sizeKb": 336,
       "deps": [],
-      "homepage": "https://www.npmjs.com/package/markdown-it-emoji"
+      "homepage": "https://www.npmjs.com/package/markdown-it-emoji",
+      "reviewed": true,
+      "category": "排版增强",
+      "conflicts": [
+        "emoji"
+      ]
     },
     {
       "id": "markdown-it-github-alerts",
@@ -204,7 +237,12 @@
       "download": "https://registry.npmjs.org/markdown-it-github-alerts/-/markdown-it-github-alerts-1.0.1.tgz",
       "sizeKb": 15,
       "deps": [],
-      "homepage": "https://www.npmjs.com/package/markdown-it-github-alerts"
+      "homepage": "https://www.npmjs.com/package/markdown-it-github-alerts",
+      "reviewed": true,
+      "category": "排版增强",
+      "conflicts": [
+        "alert"
+      ]
     },
     {
       "id": "markdown-it-image-figures",
@@ -224,7 +262,12 @@
       "download": "https://registry.npmjs.org/markdown-it-image-figures/-/markdown-it-image-figures-2.1.1.tgz",
       "sizeKb": 22,
       "deps": [],
-      "homepage": "https://www.npmjs.com/package/markdown-it-image-figures"
+      "homepage": "https://www.npmjs.com/package/markdown-it-image-figures",
+      "reviewed": true,
+      "category": "排版增强",
+      "conflicts": [
+        "image-figure"
+      ]
     },
     {
       "id": "markdown-it-ins",
@@ -244,7 +287,9 @@
       "download": "https://registry.npmjs.org/markdown-it-ins/-/markdown-it-ins-4.0.0.tgz",
       "sizeKb": 15,
       "deps": [],
-      "homepage": "https://www.npmjs.com/package/markdown-it-ins"
+      "homepage": "https://www.npmjs.com/package/markdown-it-ins",
+      "reviewed": true,
+      "category": "排版增强"
     },
     {
       "id": "markdown-it-link-attributes",
@@ -264,7 +309,12 @@
       "download": "https://registry.npmjs.org/markdown-it-link-attributes/-/markdown-it-link-attributes-4.0.1.tgz",
       "sizeKb": 14,
       "deps": [],
-      "homepage": "https://www.npmjs.com/package/markdown-it-link-attributes"
+      "homepage": "https://www.npmjs.com/package/markdown-it-link-attributes",
+      "reviewed": true,
+      "category": "排版增强",
+      "conflicts": [
+        "external-link"
+      ]
     },
     {
       "id": "markdown-it-mark",
@@ -284,7 +334,12 @@
       "download": "https://registry.npmjs.org/markdown-it-mark/-/markdown-it-mark-4.0.0.tgz",
       "sizeKb": 15,
       "deps": [],
-      "homepage": "https://www.npmjs.com/package/markdown-it-mark"
+      "homepage": "https://www.npmjs.com/package/markdown-it-mark",
+      "reviewed": true,
+      "category": "排版增强",
+      "conflicts": [
+        "mark"
+      ]
     },
     {
       "id": "markdown-it-sub",
@@ -304,7 +359,12 @@
       "download": "https://registry.npmjs.org/markdown-it-sub/-/markdown-it-sub-2.0.0.tgz",
       "sizeKb": 9,
       "deps": [],
-      "homepage": "https://www.npmjs.com/package/markdown-it-sub"
+      "homepage": "https://www.npmjs.com/package/markdown-it-sub",
+      "reviewed": true,
+      "category": "排版增强",
+      "conflicts": [
+        "sub"
+      ]
     },
     {
       "id": "markdown-it-sup",
@@ -324,7 +384,12 @@
       "download": "https://registry.npmjs.org/markdown-it-sup/-/markdown-it-sup-2.0.0.tgz",
       "sizeKb": 9,
       "deps": [],
-      "homepage": "https://www.npmjs.com/package/markdown-it-sup"
+      "homepage": "https://www.npmjs.com/package/markdown-it-sup",
+      "reviewed": true,
+      "category": "排版增强",
+      "conflicts": [
+        "sup"
+      ]
     },
     {
       "id": "markdown-it-table",
@@ -344,7 +409,9 @@
       "download": "https://registry.npmjs.org/markdown-it-table/-/markdown-it-table-5.0.0.tgz",
       "sizeKb": 21,
       "deps": [],
-      "homepage": "https://www.npmjs.com/package/markdown-it-table"
+      "homepage": "https://www.npmjs.com/package/markdown-it-table",
+      "reviewed": true,
+      "category": "排版增强"
     },
     {
       "id": "markdown-it-table-of-contents",
@@ -364,7 +431,12 @@
       "download": "https://registry.npmjs.org/markdown-it-table-of-contents/-/markdown-it-table-of-contents-1.3.0.tgz",
       "sizeKb": 72,
       "deps": [],
-      "homepage": "https://www.npmjs.com/package/markdown-it-table-of-contents"
+      "homepage": "https://www.npmjs.com/package/markdown-it-table-of-contents",
+      "reviewed": true,
+      "category": "内容组织",
+      "conflicts": [
+        "toc"
+      ]
     },
     {
       "id": "markdown-it-task-checkbox",
@@ -384,7 +456,12 @@
       "download": "https://registry.npmjs.org/markdown-it-task-checkbox/-/markdown-it-task-checkbox-1.0.6.tgz",
       "sizeKb": 0,
       "deps": [],
-      "homepage": "https://www.npmjs.com/package/markdown-it-task-checkbox"
+      "homepage": "https://www.npmjs.com/package/markdown-it-task-checkbox",
+      "reviewed": true,
+      "category": "交互控件",
+      "conflicts": [
+        "task-list"
+      ]
     },
     {
       "id": "markdown-it-texmath",
@@ -404,7 +481,12 @@
       "download": "https://registry.npmjs.org/markdown-it-texmath/-/markdown-it-texmath-1.0.0.tgz",
       "sizeKb": 103,
       "deps": [],
-      "homepage": "https://www.npmjs.com/package/markdown-it-texmath"
+      "homepage": "https://www.npmjs.com/package/markdown-it-texmath",
+      "reviewed": true,
+      "category": "代码与公式",
+      "conflicts": [
+        "formula"
+      ]
     },
     {
       "id": "@mdit/plugin-alert",
@@ -412,14 +494,20 @@
       "version": "2.2.0",
       "description": "支持 > [!NOTE] / [!TIP] / [!IMPORTANT] / [!WARNING] / [!CAUTION] 五种提示样式，渲染成带图标的彩色块。",
       "source": "market",
-      "badge": "community",
+      "badge": "unreviewed",
       "author": "",
       "download": "https://registry.npmjs.org/@mdit/plugin-alert/-/plugin-alert-2.2.0.tgz",
       "sizeKb": 13,
-      "weeklyDownloads": 653846,
+      "weeklyDownloads": 657057,
       "deps": [],
       "sha256": "8f3e0d592f70979c1efdf3fd3096d12fc7c372ec5b03fe45122c4833d5524059",
-      "descriptionEn": ""
+      "descriptionEn": "",
+      "legacyBadge": "community",
+      "reviewed": false,
+      "category": "排版增强",
+      "conflicts": [
+        "alert"
+      ]
     },
     {
       "id": "@mdit/plugin-attrs",
@@ -427,14 +515,20 @@
       "version": "1.5.0",
       "description": "给标题、段落、行内元素追加 {#id .class key=value} 属性，便于自定义锚点与样式。",
       "source": "market",
-      "badge": "community",
+      "badge": "unreviewed",
       "author": "",
       "download": "https://registry.npmjs.org/@mdit/plugin-attrs/-/plugin-attrs-1.5.0.tgz",
       "sizeKb": 58,
-      "weeklyDownloads": 52508,
+      "weeklyDownloads": 55066,
       "deps": [],
       "sha256": "66e7b82f4d2ab474bf9f819ca52389e1129f02b8a27e86c99bfabb013abbb727",
-      "descriptionEn": ""
+      "descriptionEn": "",
+      "legacyBadge": "community",
+      "reviewed": false,
+      "category": "排版增强",
+      "conflicts": [
+        "attrs"
+      ]
     },
     {
       "id": "@mdit/plugin-container",
@@ -442,14 +536,20 @@
       "version": "2.2.0",
       "description": "用 ::: 名称 包裹一段内容，渲染成带边框和标题的自定义区块。",
       "source": "market",
-      "badge": "community",
+      "badge": "unreviewed",
       "author": "",
       "download": "https://registry.npmjs.org/@mdit/plugin-container/-/plugin-container-2.2.0.tgz",
       "sizeKb": 9,
-      "weeklyDownloads": 60586,
+      "weeklyDownloads": 64409,
       "deps": [],
       "sha256": "662a877d22f95c13c28a7aa7760d27b9c64c4c699279b33c12df0a50293a9554",
-      "descriptionEn": ""
+      "descriptionEn": "",
+      "legacyBadge": "community",
+      "reviewed": false,
+      "category": "排版增强",
+      "conflicts": [
+        "container"
+      ]
     },
     {
       "id": "@mdit/plugin-inline-rule",
@@ -457,14 +557,17 @@
       "version": "2.2.5",
       "description": "为其它插件提供行内语法注册能力的基础库；单独安装没有可见效果。",
       "source": "market",
-      "badge": "community",
+      "badge": "unreviewed",
       "author": "",
       "download": "https://registry.npmjs.org/@mdit/plugin-inline-rule/-/plugin-inline-rule-2.2.5.tgz",
       "sizeKb": 12,
-      "weeklyDownloads": 49813,
+      "weeklyDownloads": 52640,
       "deps": [],
       "sha256": "eccd4f6df6224a3956784128895cb7b0b46f734a7df174050f0c2cb4b1726214",
-      "descriptionEn": ""
+      "descriptionEn": "",
+      "legacyBadge": "community",
+      "reviewed": false,
+      "category": "内容组织"
     },
     {
       "id": "@mdit/plugin-sub",
@@ -472,14 +575,20 @@
       "version": "1.2.0",
       "description": "把 H~2~O 渲染成下标 H₂O，适合化学式与变量角标。",
       "source": "market",
-      "badge": "community",
+      "badge": "unreviewed",
       "author": "",
       "download": "https://registry.npmjs.org/@mdit/plugin-sub/-/plugin-sub-1.2.0.tgz",
       "sizeKb": 6,
-      "weeklyDownloads": 51135,
+      "weeklyDownloads": 53837,
       "deps": [],
       "sha256": "c374442db2c18b6ed838710e374afc6f1ed1e978a3943727a8e12cd999cd31f3",
-      "descriptionEn": ""
+      "descriptionEn": "",
+      "legacyBadge": "community",
+      "reviewed": false,
+      "category": "排版增强",
+      "conflicts": [
+        "sub"
+      ]
     },
     {
       "id": "@mdit/plugin-sup",
@@ -487,14 +596,20 @@
       "version": "1.2.0",
       "description": "把 x^2^ 渲染成上标，适合指数与注释标记。",
       "source": "market",
-      "badge": "community",
+      "badge": "unreviewed",
       "author": "",
       "download": "https://registry.npmjs.org/@mdit/plugin-sup/-/plugin-sup-1.2.0.tgz",
       "sizeKb": 6,
-      "weeklyDownloads": 51016,
+      "weeklyDownloads": 53712,
       "deps": [],
       "sha256": "a5a82fcbe539e10abe1a66cc05c2c330fe19e2187f8b10b25010d81734e7aae1",
-      "descriptionEn": ""
+      "descriptionEn": "",
+      "legacyBadge": "community",
+      "reviewed": false,
+      "category": "排版增强",
+      "conflicts": [
+        "sup"
+      ]
     },
     {
       "id": "@mdit/plugin-tab",
@@ -502,14 +617,17 @@
       "version": "2.1.1",
       "description": "把多段内容组织成可点击切换的标签页，适合多方案对比。",
       "source": "market",
-      "badge": "community",
+      "badge": "unreviewed",
       "author": "",
       "download": "https://registry.npmjs.org/@mdit/plugin-tab/-/plugin-tab-2.1.1.tgz",
       "sizeKb": 19,
-      "weeklyDownloads": 52322,
+      "weeklyDownloads": 55502,
       "deps": [],
       "sha256": "9b6f370b9153ac38510012d7d89e8abd5ff20afd420bc423f889c6bda28f5dcd",
-      "descriptionEn": ""
+      "descriptionEn": "",
+      "legacyBadge": "community",
+      "reviewed": false,
+      "category": "交互控件"
     },
     {
       "id": "@mdit/plugin-tex",
@@ -517,14 +635,20 @@
       "version": "1.3.0",
       "description": "解析 TeX 数学语法；注意：本应用已内置 KaTeX，同时启用可能重复渲染公式。",
       "source": "market",
-      "badge": "community",
+      "badge": "unreviewed",
       "author": "",
       "download": "https://registry.npmjs.org/@mdit/plugin-tex/-/plugin-tex-1.3.0.tgz",
       "sizeKb": 14,
-      "weeklyDownloads": 50313,
+      "weeklyDownloads": 52368,
       "deps": [],
       "sha256": "01dabc250c027d6d0a5a32647ea0dd392db00855cf53f4b9f46e3212f5a9945b",
-      "descriptionEn": ""
+      "descriptionEn": "",
+      "legacyBadge": "community",
+      "reviewed": false,
+      "category": "代码与公式",
+      "conflicts": [
+        "formula"
+      ]
     },
     {
       "id": "markdown-it-footnote",
@@ -532,14 +656,20 @@
       "version": "4.0.0",
       "description": "支持 [^1] 脚注语法与文末注释区，适合长文引用；注意：应用内置脚注可能与它重复。",
       "source": "market",
-      "badge": "community",
+      "badge": "unreviewed",
       "author": "",
       "download": "https://registry.npmjs.org/markdown-it-footnote/-/markdown-it-footnote-4.0.0.tgz",
       "sizeKb": 9,
-      "weeklyDownloads": 1018123,
+      "weeklyDownloads": 1028179,
       "deps": [],
       "sha256": "319e1c784b74a73b473e76a1bb725d3770c5a2e409dfd8c30c504f3a2712e272",
-      "descriptionEn": ""
+      "descriptionEn": "",
+      "legacyBadge": "community",
+      "reviewed": false,
+      "category": "内容组织",
+      "conflicts": [
+        "footnote"
+      ]
     },
     {
       "id": "markdown-it-for-inline",
@@ -547,14 +677,17 @@
       "version": "2.0.1",
       "description": "供插件作者遍历行内 token 的工具库；单独安装没有可见效果。",
       "source": "market",
-      "badge": "community",
+      "badge": "unreviewed",
       "author": "",
       "download": "https://registry.npmjs.org/markdown-it-for-inline/-/markdown-it-for-inline-2.0.1.tgz",
       "sizeKb": 3,
-      "weeklyDownloads": 55759,
+      "weeklyDownloads": 53767,
       "deps": [],
       "sha256": "4b7ced6b6f9b70ae0180883550c3fcb56dda0296b6c52ce7d32faa0129aa095e",
-      "descriptionEn": ""
+      "descriptionEn": "",
+      "legacyBadge": "community",
+      "reviewed": false,
+      "category": "内容组织"
     },
     {
       "id": "markdown-it-front-matter",
@@ -562,14 +695,17 @@
       "version": "0.2.4",
       "description": "识别并剥离文档头部的 YAML 元信息；注意：本应用渲染前已自动剥离 front matter，重复安装无收益。",
       "source": "market",
-      "badge": "community",
+      "badge": "unreviewed",
       "author": "",
       "download": "https://registry.npmjs.org/markdown-it-front-matter/-/markdown-it-front-matter-0.2.4.tgz",
       "sizeKb": 4,
-      "weeklyDownloads": 175225,
+      "weeklyDownloads": 174400,
       "deps": [],
       "sha256": "2e40bc3ca61af2a54f8e0876790deae77117f47eccd6ce43e0968eecc932adf9",
-      "descriptionEn": ""
+      "descriptionEn": "",
+      "legacyBadge": "community",
+      "reviewed": false,
+      "category": "内容组织"
     },
     {
       "id": "markdown-it-github",
@@ -577,14 +713,17 @@
       "version": "0.5.0",
       "description": "按 GitHub 的 Markdown 规则渲染，补充标题锚点等 GitHub 特有行为。",
       "source": "market",
-      "badge": "community",
+      "badge": "unreviewed",
       "author": "",
       "download": "https://registry.npmjs.org/markdown-it-github/-/markdown-it-github-0.5.0.tgz",
       "sizeKb": 6,
-      "weeklyDownloads": 69492,
+      "weeklyDownloads": 71562,
       "deps": [],
       "sha256": "969e4c969fb44cce5e8d746057ced1a09261e4d0f9511a4d6f249c4cdf49f39f",
-      "descriptionEn": ""
+      "descriptionEn": "",
+      "legacyBadge": "community",
+      "reviewed": false,
+      "category": "排版增强"
     },
     {
       "id": "markdown-it-highlightjs",
@@ -592,14 +731,20 @@
       "version": "4.3.0",
       "description": "用 highlight.js 替换代码高亮；注意：本应用内置 Prism 高亮，同时启用可能样式冲突。",
       "source": "market",
-      "badge": "community",
+      "badge": "unreviewed",
       "author": "",
       "download": "https://registry.npmjs.org/markdown-it-highlightjs/-/markdown-it-highlightjs-4.3.0.tgz",
       "sizeKb": 9,
-      "weeklyDownloads": 100038,
+      "weeklyDownloads": 102874,
       "deps": [],
       "sha256": "33578c8eac057ab8ffca32c8a772bf0e6f4be79fceb88ff5b866a971cff9ca4f",
-      "descriptionEn": ""
+      "descriptionEn": "",
+      "legacyBadge": "community",
+      "reviewed": false,
+      "category": "代码与公式",
+      "conflicts": [
+        "highlight"
+      ]
     },
     {
       "id": "markdown-it-mdc",
@@ -607,14 +752,17 @@
       "version": "0.2.12",
       "description": "支持 Markdown Components（MDC）语法，Vue/Nuxt 生态常用；本应用不解析其组件逻辑，仅按容器渲染。",
       "source": "market",
-      "badge": "community",
+      "badge": "unreviewed",
       "author": "",
       "download": "https://registry.npmjs.org/markdown-it-mdc/-/markdown-it-mdc-0.2.12.tgz",
       "sizeKb": 7,
-      "weeklyDownloads": 65216,
+      "weeklyDownloads": 62245,
       "deps": [],
       "sha256": "54de953ca3d61c9e89d4ec1fc5eb9690a1490adc33aefb303a39bb650b9c3ad6",
-      "descriptionEn": ""
+      "descriptionEn": "",
+      "legacyBadge": "community",
+      "reviewed": false,
+      "category": "排版增强"
     },
     {
       "id": "markdown-it-multimd-table",
@@ -622,14 +770,17 @@
       "version": "4.2.3",
       "description": "扩展表格语法，支持单元格合并、多行表头等写法。",
       "source": "market",
-      "badge": "community",
+      "badge": "unreviewed",
       "author": "",
       "download": "https://registry.npmjs.org/markdown-it-multimd-table/-/markdown-it-multimd-table-4.2.3.tgz",
       "sizeKb": 20,
-      "weeklyDownloads": 45570,
+      "weeklyDownloads": 47011,
       "deps": [],
       "sha256": "9107388dff4a88e973dc1de64e2e7e23c7b79930e0ca25a8cf54acf88bf747a7",
-      "descriptionEn": ""
+      "descriptionEn": "",
+      "legacyBadge": "community",
+      "reviewed": false,
+      "category": "排版增强"
     },
     {
       "id": "markdown-it-task-lists",
@@ -637,14 +788,20 @@
       "version": "2.1.1",
       "description": "渲染 GitHub 风格任务列表（- [x] / - [ ]），只读展示，不会回写文件。",
       "source": "market",
-      "badge": "community",
+      "badge": "unreviewed",
       "author": "",
       "download": "https://registry.npmjs.org/markdown-it-task-lists/-/markdown-it-task-lists-2.1.1.tgz",
       "sizeKb": 6,
-      "weeklyDownloads": 4254004,
+      "weeklyDownloads": 4308559,
       "deps": [],
       "sha256": "8e9ed515296f11d716a6460c0bd35ffa163003a373a6d8f65d53ea9f8aec667e",
-      "descriptionEn": ""
+      "descriptionEn": "",
+      "legacyBadge": "community",
+      "reviewed": false,
+      "category": "交互控件",
+      "conflicts": [
+        "task-list"
+      ]
     },
     {
       "id": "markdown-it-theme",
@@ -652,14 +809,17 @@
       "version": "0.4.0",
       "description": "给渲染结果套用自定义主题类名，便于配合自定义 CSS；不含现成配色。",
       "source": "market",
-      "badge": "community",
+      "badge": "unreviewed",
       "author": "",
       "download": "https://registry.npmjs.org/markdown-it-theme/-/markdown-it-theme-0.4.0.tgz",
       "sizeKb": 3,
-      "weeklyDownloads": 69497,
+      "weeklyDownloads": 71582,
       "deps": [],
       "sha256": "cf6b729c5fef6022b1e546de83e9992294cc95152cd5dab671ca7aa7eebaa166",
-      "descriptionEn": ""
+      "descriptionEn": "",
+      "legacyBadge": "community",
+      "reviewed": false,
+      "category": "排版增强"
     },
     {
       "id": "markdown-it-toc-done-right",
@@ -667,14 +827,20 @@
       "version": "4.2.0",
       "description": "在正文中插入 [TOC] 生成目录并支持锚点跳转；注意：本应用右侧已有大纲面板。",
       "source": "market",
-      "badge": "community",
+      "badge": "unreviewed",
       "author": "",
       "download": "https://registry.npmjs.org/markdown-it-toc-done-right/-/markdown-it-toc-done-right-4.2.0.tgz",
       "sizeKb": 15,
-      "weeklyDownloads": 63767,
+      "weeklyDownloads": 64602,
       "deps": [],
       "sha256": "41cee33e5ab120bd3820f3e83e412879514d4e2fe5c7f369e5c4fda2028af64d",
-      "descriptionEn": ""
+      "descriptionEn": "",
+      "legacyBadge": "community",
+      "reviewed": false,
+      "category": "内容组织",
+      "conflicts": [
+        "toc"
+      ]
     },
     {
       "id": "prism-lang-abap",
@@ -696,7 +862,8 @@
       },
       "language": "abap",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-abnf",
@@ -718,7 +885,8 @@
       },
       "language": "abnf",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-actionscript",
@@ -742,7 +910,8 @@
       "aliases": [],
       "requires": [
         "javascript"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-ada",
@@ -764,7 +933,8 @@
       },
       "language": "ada",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-agda",
@@ -786,7 +956,8 @@
       },
       "language": "agda",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-al",
@@ -808,7 +979,8 @@
       },
       "language": "al",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-antlr4",
@@ -832,7 +1004,8 @@
       "aliases": [
         "g4"
       ],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-apacheconf",
@@ -854,7 +1027,8 @@
       },
       "language": "apacheconf",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-apex",
@@ -879,7 +1053,8 @@
       "requires": [
         "clike",
         "sql"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-apl",
@@ -901,7 +1076,8 @@
       },
       "language": "apl",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-applescript",
@@ -923,7 +1099,8 @@
       },
       "language": "applescript",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-aql",
@@ -945,7 +1122,8 @@
       },
       "language": "aql",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-arduino",
@@ -971,7 +1149,8 @@
       ],
       "requires": [
         "cpp"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-arff",
@@ -993,7 +1172,8 @@
       },
       "language": "arff",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-armasm",
@@ -1017,7 +1197,8 @@
       "aliases": [
         "arm-asm"
       ],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-arturo",
@@ -1041,7 +1222,8 @@
       "aliases": [
         "art"
       ],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-asciidoc",
@@ -1065,7 +1247,8 @@
       "aliases": [
         "adoc"
       ],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-asm6502",
@@ -1087,7 +1270,8 @@
       },
       "language": "asm6502",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-asmatmel",
@@ -1109,7 +1293,8 @@
       },
       "language": "asmatmel",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-aspnet",
@@ -1134,7 +1319,8 @@
       "requires": [
         "markup",
         "csharp"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-autohotkey",
@@ -1156,7 +1342,8 @@
       },
       "language": "autohotkey",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-autoit",
@@ -1178,7 +1365,8 @@
       },
       "language": "autoit",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-avisynth",
@@ -1202,7 +1390,8 @@
       "aliases": [
         "avs"
       ],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-avro-idl",
@@ -1226,7 +1415,8 @@
       "aliases": [
         "avdl"
       ],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-awk",
@@ -1250,7 +1440,8 @@
       "aliases": [
         "gawk"
       ],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-basic",
@@ -1272,7 +1463,8 @@
       },
       "language": "basic",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-batch",
@@ -1294,7 +1486,8 @@
       },
       "language": "batch",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-bbcode",
@@ -1318,7 +1511,8 @@
       "aliases": [
         "shortcode"
       ],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-bbj",
@@ -1340,7 +1534,8 @@
       },
       "language": "bbj",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-bicep",
@@ -1362,7 +1557,8 @@
       },
       "language": "bicep",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-birb",
@@ -1386,7 +1582,8 @@
       "aliases": [],
       "requires": [
         "clike"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-bison",
@@ -1410,7 +1607,8 @@
       "aliases": [],
       "requires": [
         "c"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-bnf",
@@ -1434,7 +1632,8 @@
       "aliases": [
         "rbnf"
       ],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-bqn",
@@ -1456,7 +1655,8 @@
       },
       "language": "bqn",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-brainfuck",
@@ -1478,7 +1678,8 @@
       },
       "language": "brainfuck",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-brightscript",
@@ -1500,7 +1701,8 @@
       },
       "language": "brightscript",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-bro",
@@ -1522,7 +1724,8 @@
       },
       "language": "bro",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-bsl",
@@ -1546,7 +1749,8 @@
       "aliases": [
         "oscript"
       ],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-c",
@@ -1570,7 +1774,8 @@
       "aliases": [],
       "requires": [
         "clike"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-cfscript",
@@ -1596,7 +1801,8 @@
       ],
       "requires": [
         "clike"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-chaiscript",
@@ -1621,7 +1827,8 @@
       "requires": [
         "clike",
         "cpp"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-cil",
@@ -1643,7 +1850,8 @@
       },
       "language": "cil",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-cilkc",
@@ -1669,7 +1877,8 @@
       ],
       "requires": [
         "c"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-cilkcpp",
@@ -1696,7 +1905,8 @@
       ],
       "requires": [
         "cpp"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-clojure",
@@ -1718,7 +1928,8 @@
       },
       "language": "clojure",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-cmake",
@@ -1740,7 +1951,8 @@
       },
       "language": "cmake",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-cobol",
@@ -1762,7 +1974,8 @@
       },
       "language": "cobol",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-coffeescript",
@@ -1788,7 +2001,8 @@
       ],
       "requires": [
         "javascript"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-concurnas",
@@ -1812,7 +2026,8 @@
       "aliases": [
         "conc"
       ],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-cooklang",
@@ -1834,7 +2049,8 @@
       },
       "language": "cooklang",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-coq",
@@ -1856,7 +2072,8 @@
       },
       "language": "coq",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-cpp",
@@ -1880,7 +2097,8 @@
       "aliases": [],
       "requires": [
         "c"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-crystal",
@@ -1904,7 +2122,8 @@
       "aliases": [],
       "requires": [
         "ruby"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-csharp",
@@ -1931,7 +2150,8 @@
       ],
       "requires": [
         "clike"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-cshtml",
@@ -1958,7 +2178,8 @@
       "requires": [
         "markup",
         "csharp"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-csp",
@@ -1980,7 +2201,8 @@
       },
       "language": "csp",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-css-extras",
@@ -2004,7 +2226,8 @@
       "aliases": [],
       "requires": [
         "css"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-csv",
@@ -2026,7 +2249,8 @@
       },
       "language": "csv",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-cue",
@@ -2048,7 +2272,8 @@
       },
       "language": "cue",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-cypher",
@@ -2070,7 +2295,8 @@
       },
       "language": "cypher",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-d",
@@ -2094,7 +2320,8 @@
       "aliases": [],
       "requires": [
         "clike"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-dart",
@@ -2118,7 +2345,8 @@
       "aliases": [],
       "requires": [
         "clike"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-dataweave",
@@ -2140,7 +2368,8 @@
       },
       "language": "dataweave",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-dax",
@@ -2162,7 +2391,8 @@
       },
       "language": "dax",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-dhall",
@@ -2184,7 +2414,8 @@
       },
       "language": "dhall",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-diff",
@@ -2206,7 +2437,8 @@
       },
       "language": "diff",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-django",
@@ -2232,7 +2464,8 @@
       ],
       "requires": [
         "markup-templating"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-dns-zone-file",
@@ -2256,7 +2489,8 @@
       "aliases": [
         "dns-zone"
       ],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-docker",
@@ -2280,7 +2514,8 @@
       "aliases": [
         "dockerfile"
       ],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-dot",
@@ -2304,7 +2539,8 @@
       "aliases": [
         "gv"
       ],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-ebnf",
@@ -2326,7 +2562,8 @@
       },
       "language": "ebnf",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-editorconfig",
@@ -2348,7 +2585,8 @@
       },
       "language": "editorconfig",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-eiffel",
@@ -2370,7 +2608,8 @@
       },
       "language": "eiffel",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-ejs",
@@ -2397,7 +2636,8 @@
       "requires": [
         "javascript",
         "markup-templating"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-elixir",
@@ -2419,7 +2659,8 @@
       },
       "language": "elixir",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-elm",
@@ -2441,7 +2682,8 @@
       },
       "language": "elm",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-erb",
@@ -2466,7 +2708,8 @@
       "requires": [
         "ruby",
         "markup-templating"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-erlang",
@@ -2488,7 +2731,8 @@
       },
       "language": "erlang",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-etlua",
@@ -2513,7 +2757,8 @@
       "requires": [
         "lua",
         "markup-templating"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-excel-formula",
@@ -2538,7 +2783,8 @@
         "xlsx",
         "xls"
       ],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-factor",
@@ -2560,7 +2806,8 @@
       },
       "language": "factor",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-false",
@@ -2582,7 +2829,8 @@
       },
       "language": "false",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-firestore-security-rules",
@@ -2606,7 +2854,8 @@
       "aliases": [],
       "requires": [
         "clike"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-flow",
@@ -2630,7 +2879,8 @@
       "aliases": [],
       "requires": [
         "javascript"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-fortran",
@@ -2652,7 +2902,8 @@
       },
       "language": "fortran",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-fsharp",
@@ -2676,7 +2927,8 @@
       "aliases": [],
       "requires": [
         "clike"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-ftl",
@@ -2700,7 +2952,8 @@
       "aliases": [],
       "requires": [
         "markup-templating"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-gap",
@@ -2722,7 +2975,8 @@
       },
       "language": "gap",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-gcode",
@@ -2744,7 +2998,8 @@
       },
       "language": "gcode",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-gdscript",
@@ -2766,7 +3021,8 @@
       },
       "language": "gdscript",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-gedcom",
@@ -2788,7 +3044,8 @@
       },
       "language": "gedcom",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-gettext",
@@ -2812,7 +3069,8 @@
       "aliases": [
         "po"
       ],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-gherkin",
@@ -2834,7 +3092,8 @@
       },
       "language": "gherkin",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-git",
@@ -2856,7 +3115,8 @@
       },
       "language": "git",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-glsl",
@@ -2880,7 +3140,8 @@
       "aliases": [],
       "requires": [
         "c"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-gml",
@@ -2906,7 +3167,8 @@
       ],
       "requires": [
         "clike"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-gn",
@@ -2930,7 +3192,8 @@
       "aliases": [
         "gni"
       ],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-go",
@@ -2954,7 +3217,8 @@
       "aliases": [],
       "requires": [
         "clike"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-go-module",
@@ -2978,7 +3242,8 @@
       "aliases": [
         "go-mod"
       ],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-gradle",
@@ -3002,7 +3267,8 @@
       "aliases": [],
       "requires": [
         "clike"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-graphql",
@@ -3024,7 +3290,8 @@
       },
       "language": "graphql",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-groovy",
@@ -3048,7 +3315,8 @@
       "aliases": [],
       "requires": [
         "clike"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-haml",
@@ -3072,7 +3340,8 @@
       "aliases": [],
       "requires": [
         "ruby"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-handlebars",
@@ -3099,7 +3368,8 @@
       ],
       "requires": [
         "markup-templating"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-haskell",
@@ -3123,7 +3393,8 @@
       "aliases": [
         "hs"
       ],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-haxe",
@@ -3147,7 +3418,8 @@
       "aliases": [],
       "requires": [
         "clike"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-hcl",
@@ -3169,7 +3441,8 @@
       },
       "language": "hcl",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-hlsl",
@@ -3193,7 +3466,8 @@
       "aliases": [],
       "requires": [
         "c"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-hoon",
@@ -3215,7 +3489,8 @@
       },
       "language": "hoon",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-hpkp",
@@ -3237,7 +3512,8 @@
       },
       "language": "hpkp",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-hsts",
@@ -3259,7 +3535,8 @@
       },
       "language": "hsts",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-http",
@@ -3281,7 +3558,8 @@
       },
       "language": "http",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-ichigojam",
@@ -3303,7 +3581,8 @@
       },
       "language": "ichigojam",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-icon",
@@ -3325,7 +3604,8 @@
       },
       "language": "icon",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-icu-message-format",
@@ -3347,7 +3627,8 @@
       },
       "language": "icu-message-format",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-idris",
@@ -3373,7 +3654,8 @@
       ],
       "requires": [
         "haskell"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-iecst",
@@ -3395,7 +3677,8 @@
       },
       "language": "iecst",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-ignore",
@@ -3421,7 +3704,8 @@
         "hgignore",
         "npmignore"
       ],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-inform7",
@@ -3443,7 +3727,8 @@
       },
       "language": "inform7",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-ini",
@@ -3465,7 +3750,8 @@
       },
       "language": "ini",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-io",
@@ -3487,7 +3773,8 @@
       },
       "language": "io",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-j",
@@ -3509,7 +3796,8 @@
       },
       "language": "j",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-javadoc",
@@ -3535,7 +3823,8 @@
         "markup",
         "java",
         "javadoclike"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-javadoclike",
@@ -3557,7 +3846,8 @@
       },
       "language": "javadoclike",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-javastacktrace",
@@ -3579,7 +3869,8 @@
       },
       "language": "javastacktrace",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-jexl",
@@ -3601,7 +3892,8 @@
       },
       "language": "jexl",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-jolie",
@@ -3625,7 +3917,8 @@
       "aliases": [],
       "requires": [
         "clike"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-jq",
@@ -3647,7 +3940,8 @@
       },
       "language": "jq",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-js-extras",
@@ -3671,7 +3965,8 @@
       "aliases": [],
       "requires": [
         "javascript"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-js-templates",
@@ -3695,7 +3990,8 @@
       "aliases": [],
       "requires": [
         "javascript"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-jsdoc",
@@ -3721,7 +4017,8 @@
         "javascript",
         "javadoclike",
         "typescript"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-json5",
@@ -3745,7 +4042,8 @@
       "aliases": [],
       "requires": [
         "json"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-jsonp",
@@ -3769,7 +4067,8 @@
       "aliases": [],
       "requires": [
         "json"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-jsstacktrace",
@@ -3791,7 +4090,8 @@
       },
       "language": "jsstacktrace",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-julia",
@@ -3813,7 +4113,8 @@
       },
       "language": "julia",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-keepalived",
@@ -3835,7 +4136,8 @@
       },
       "language": "keepalived",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-keyman",
@@ -3857,7 +4159,8 @@
       },
       "language": "keyman",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-kotlin",
@@ -3884,7 +4187,8 @@
       ],
       "requires": [
         "clike"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-kumir",
@@ -3908,7 +4212,8 @@
       "aliases": [
         "kum"
       ],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-kusto",
@@ -3930,7 +4235,8 @@
       },
       "language": "kusto",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-latex",
@@ -3955,7 +4261,8 @@
         "tex",
         "context"
       ],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-latte",
@@ -3981,7 +4288,8 @@
         "clike",
         "markup-templating",
         "php"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-less",
@@ -4005,7 +4313,8 @@
       "aliases": [],
       "requires": [
         "css"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-lilypond",
@@ -4031,7 +4340,8 @@
       ],
       "requires": [
         "scheme"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-linker-script",
@@ -4055,7 +4365,8 @@
       "aliases": [
         "ld"
       ],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-liquid",
@@ -4079,7 +4390,8 @@
       "aliases": [],
       "requires": [
         "markup-templating"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-lisp",
@@ -4105,7 +4417,8 @@
         "elisp",
         "emacs-lisp"
       ],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-livescript",
@@ -4127,7 +4440,8 @@
       },
       "language": "livescript",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-llvm",
@@ -4149,7 +4463,8 @@
       },
       "language": "llvm",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-log",
@@ -4171,7 +4486,8 @@
       },
       "language": "log",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-lolcode",
@@ -4193,7 +4509,8 @@
       },
       "language": "lolcode",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-lua",
@@ -4215,7 +4532,8 @@
       },
       "language": "lua",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-magma",
@@ -4237,7 +4555,8 @@
       },
       "language": "magma",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-makefile",
@@ -4259,7 +4578,8 @@
       },
       "language": "makefile",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-markdown",
@@ -4285,7 +4605,8 @@
       ],
       "requires": [
         "markup"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-markup-templating",
@@ -4309,7 +4630,8 @@
       "aliases": [],
       "requires": [
         "markup"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-mata",
@@ -4331,7 +4653,8 @@
       },
       "language": "mata",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-matlab",
@@ -4353,7 +4676,8 @@
       },
       "language": "matlab",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-maxscript",
@@ -4375,7 +4699,8 @@
       },
       "language": "maxscript",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-mel",
@@ -4397,7 +4722,8 @@
       },
       "language": "mel",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-mermaid",
@@ -4419,7 +4745,8 @@
       },
       "language": "mermaid",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-metafont",
@@ -4441,7 +4768,8 @@
       },
       "language": "metafont",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-mizar",
@@ -4463,7 +4791,8 @@
       },
       "language": "mizar",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-mongodb",
@@ -4487,7 +4816,8 @@
       "aliases": [],
       "requires": [
         "javascript"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-monkey",
@@ -4509,7 +4839,8 @@
       },
       "language": "monkey",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-moonscript",
@@ -4533,7 +4864,8 @@
       "aliases": [
         "moon"
       ],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-n1ql",
@@ -4555,7 +4887,8 @@
       },
       "language": "n1ql",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-n4js",
@@ -4581,7 +4914,8 @@
       ],
       "requires": [
         "javascript"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-nand2tetris-hdl",
@@ -4603,7 +4937,8 @@
       },
       "language": "nand2tetris-hdl",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-naniscript",
@@ -4627,7 +4962,8 @@
       "aliases": [
         "nani"
       ],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-nasm",
@@ -4649,7 +4985,8 @@
       },
       "language": "nasm",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-neon",
@@ -4671,7 +5008,8 @@
       },
       "language": "neon",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-nevod",
@@ -4693,7 +5031,8 @@
       },
       "language": "nevod",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-nginx",
@@ -4715,7 +5054,8 @@
       },
       "language": "nginx",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-nim",
@@ -4737,7 +5077,8 @@
       },
       "language": "nim",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-nix",
@@ -4759,7 +5100,8 @@
       },
       "language": "nix",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-nsis",
@@ -4781,7 +5123,8 @@
       },
       "language": "nsis",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-objectivec",
@@ -4807,7 +5150,8 @@
       ],
       "requires": [
         "c"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-ocaml",
@@ -4829,7 +5173,8 @@
       },
       "language": "ocaml",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-odin",
@@ -4851,7 +5196,8 @@
       },
       "language": "odin",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-opencl",
@@ -4875,7 +5221,8 @@
       "aliases": [],
       "requires": [
         "c"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-openqasm",
@@ -4899,7 +5246,8 @@
       "aliases": [
         "qasm"
       ],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-oz",
@@ -4921,7 +5269,8 @@
       },
       "language": "oz",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-parigp",
@@ -4943,7 +5292,8 @@
       },
       "language": "parigp",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-parser",
@@ -4967,7 +5317,8 @@
       "aliases": [],
       "requires": [
         "markup"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-pascal",
@@ -4991,7 +5342,8 @@
       "aliases": [
         "objectpascal"
       ],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-pascaligo",
@@ -5013,7 +5365,8 @@
       },
       "language": "pascaligo",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-pcaxis",
@@ -5037,7 +5390,8 @@
       "aliases": [
         "px"
       ],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-peoplecode",
@@ -5061,7 +5415,8 @@
       "aliases": [
         "pcode"
       ],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-perl",
@@ -5083,7 +5438,8 @@
       },
       "language": "perl",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-php",
@@ -5107,7 +5463,8 @@
       "aliases": [],
       "requires": [
         "markup-templating"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-php-extras",
@@ -5131,7 +5488,8 @@
       "aliases": [],
       "requires": [
         "php"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-phpdoc",
@@ -5156,7 +5514,8 @@
       "requires": [
         "php",
         "javadoclike"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-plant-uml",
@@ -5180,7 +5539,8 @@
       "aliases": [
         "plantuml"
       ],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-plsql",
@@ -5204,7 +5564,8 @@
       "aliases": [],
       "requires": [
         "sql"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-powerquery",
@@ -5229,7 +5590,8 @@
         "pq",
         "mscript"
       ],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-powershell",
@@ -5251,7 +5613,8 @@
       },
       "language": "powershell",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-processing",
@@ -5275,7 +5638,8 @@
       "aliases": [],
       "requires": [
         "clike"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-prolog",
@@ -5297,7 +5661,8 @@
       },
       "language": "prolog",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-promql",
@@ -5319,7 +5684,8 @@
       },
       "language": "promql",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-properties",
@@ -5341,7 +5707,8 @@
       },
       "language": "properties",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-protobuf",
@@ -5365,7 +5732,8 @@
       "aliases": [],
       "requires": [
         "clike"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-psl",
@@ -5387,7 +5755,8 @@
       },
       "language": "psl",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-pug",
@@ -5412,7 +5781,8 @@
       "requires": [
         "markup",
         "javascript"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-puppet",
@@ -5434,7 +5804,8 @@
       },
       "language": "puppet",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-pure",
@@ -5456,7 +5827,8 @@
       },
       "language": "pure",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-purebasic",
@@ -5482,7 +5854,8 @@
       ],
       "requires": [
         "clike"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-purescript",
@@ -5508,7 +5881,8 @@
       ],
       "requires": [
         "haskell"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-q",
@@ -5530,7 +5904,8 @@
       },
       "language": "q",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-qml",
@@ -5554,7 +5929,8 @@
       "aliases": [],
       "requires": [
         "javascript"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-qore",
@@ -5578,7 +5954,8 @@
       "aliases": [],
       "requires": [
         "clike"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-qsharp",
@@ -5604,7 +5981,8 @@
       ],
       "requires": [
         "clike"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-r",
@@ -5626,7 +6004,8 @@
       },
       "language": "r",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-racket",
@@ -5652,7 +6031,8 @@
       ],
       "requires": [
         "scheme"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-reason",
@@ -5676,7 +6056,8 @@
       "aliases": [],
       "requires": [
         "clike"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-regex",
@@ -5698,7 +6079,8 @@
       },
       "language": "regex",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-rego",
@@ -5720,7 +6102,8 @@
       },
       "language": "rego",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-renpy",
@@ -5744,7 +6127,8 @@
       "aliases": [
         "rpy"
       ],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-rescript",
@@ -5768,7 +6152,8 @@
       "aliases": [
         "res"
       ],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-rest",
@@ -5790,7 +6175,8 @@
       },
       "language": "rest",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-rip",
@@ -5812,7 +6198,8 @@
       },
       "language": "rip",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-roboconf",
@@ -5834,7 +6221,8 @@
       },
       "language": "roboconf",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-robotframework",
@@ -5858,7 +6246,8 @@
       "aliases": [
         "robot"
       ],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-ruby",
@@ -5884,7 +6273,8 @@
       ],
       "requires": [
         "clike"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-rust",
@@ -5906,7 +6296,8 @@
       },
       "language": "rust",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-sas",
@@ -5928,7 +6319,8 @@
       },
       "language": "sas",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-sass",
@@ -5952,7 +6344,8 @@
       "aliases": [],
       "requires": [
         "css"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-scala",
@@ -5976,7 +6369,8 @@
       "aliases": [],
       "requires": [
         "java"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-scheme",
@@ -5998,7 +6392,8 @@
       },
       "language": "scheme",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-scss",
@@ -6022,7 +6417,8 @@
       "aliases": [],
       "requires": [
         "css"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-shell-session",
@@ -6049,7 +6445,8 @@
       ],
       "requires": [
         "bash"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-smali",
@@ -6071,7 +6468,8 @@
       },
       "language": "smali",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-smalltalk",
@@ -6093,7 +6491,8 @@
       },
       "language": "smalltalk",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-smarty",
@@ -6117,7 +6516,8 @@
       "aliases": [],
       "requires": [
         "markup-templating"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-sml",
@@ -6141,7 +6541,8 @@
       "aliases": [
         "smlnj"
       ],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-solidity",
@@ -6167,7 +6568,8 @@
       ],
       "requires": [
         "clike"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-solution-file",
@@ -6191,7 +6593,8 @@
       "aliases": [
         "sln"
       ],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-soy",
@@ -6215,7 +6618,8 @@
       "aliases": [],
       "requires": [
         "markup-templating"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-sparql",
@@ -6241,7 +6645,8 @@
       ],
       "requires": [
         "turtle"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-splunk-spl",
@@ -6263,7 +6668,8 @@
       },
       "language": "splunk-spl",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-sqf",
@@ -6287,7 +6693,8 @@
       "aliases": [],
       "requires": [
         "clike"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-squirrel",
@@ -6311,7 +6718,8 @@
       "aliases": [],
       "requires": [
         "clike"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-stan",
@@ -6333,7 +6741,8 @@
       },
       "language": "stan",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-stata",
@@ -6359,7 +6768,8 @@
         "mata",
         "java",
         "python"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-stylus",
@@ -6381,7 +6791,8 @@
       },
       "language": "stylus",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-supercollider",
@@ -6405,7 +6816,8 @@
       "aliases": [
         "sclang"
       ],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-swift",
@@ -6427,7 +6839,8 @@
       },
       "language": "swift",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-systemd",
@@ -6449,7 +6862,8 @@
       },
       "language": "systemd",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-t4-cs",
@@ -6476,7 +6890,8 @@
       "requires": [
         "t4-templating",
         "csharp"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-t4-templating",
@@ -6498,7 +6913,8 @@
       },
       "language": "t4-templating",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-t4-vb",
@@ -6523,7 +6939,8 @@
       "requires": [
         "t4-templating",
         "vbnet"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-tap",
@@ -6547,7 +6964,8 @@
       "aliases": [],
       "requires": [
         "yaml"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-tcl",
@@ -6569,7 +6987,8 @@
       },
       "language": "tcl",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-textile",
@@ -6593,7 +7012,8 @@
       "aliases": [],
       "requires": [
         "markup"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-toml",
@@ -6615,7 +7035,8 @@
       },
       "language": "toml",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-tremor",
@@ -6640,7 +7061,8 @@
         "trickle",
         "troy"
       ],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-tsx",
@@ -6665,7 +7087,8 @@
       "requires": [
         "jsx",
         "typescript"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-tt2",
@@ -6690,7 +7113,8 @@
       "requires": [
         "clike",
         "markup-templating"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-turtle",
@@ -6714,7 +7138,8 @@
       "aliases": [
         "trig"
       ],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-twig",
@@ -6738,7 +7163,8 @@
       "aliases": [],
       "requires": [
         "markup-templating"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-typoscript",
@@ -6762,7 +7188,8 @@
       "aliases": [
         "tsconfig"
       ],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-unrealscript",
@@ -6787,7 +7214,8 @@
         "uscript",
         "uc"
       ],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-uorazor",
@@ -6809,7 +7237,8 @@
       },
       "language": "uorazor",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-uri",
@@ -6833,7 +7262,8 @@
       "aliases": [
         "url"
       ],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-v",
@@ -6857,7 +7287,8 @@
       "aliases": [],
       "requires": [
         "clike"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-vala",
@@ -6881,7 +7312,8 @@
       "aliases": [],
       "requires": [
         "clike"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-vbnet",
@@ -6905,7 +7337,8 @@
       "aliases": [],
       "requires": [
         "basic"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-velocity",
@@ -6929,7 +7362,8 @@
       "aliases": [],
       "requires": [
         "markup"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-verilog",
@@ -6951,7 +7385,8 @@
       },
       "language": "verilog",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-vhdl",
@@ -6973,7 +7408,8 @@
       },
       "language": "vhdl",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-vim",
@@ -6995,7 +7431,8 @@
       },
       "language": "vim",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-visual-basic",
@@ -7020,7 +7457,8 @@
         "vb",
         "vba"
       ],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-warpscript",
@@ -7042,7 +7480,8 @@
       },
       "language": "warpscript",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-wasm",
@@ -7064,7 +7503,8 @@
       },
       "language": "wasm",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-web-idl",
@@ -7088,7 +7528,8 @@
       "aliases": [
         "webidl"
       ],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-wgsl",
@@ -7110,7 +7551,8 @@
       },
       "language": "wgsl",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-wiki",
@@ -7134,7 +7576,8 @@
       "aliases": [],
       "requires": [
         "markup"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-wolfram",
@@ -7160,7 +7603,8 @@
         "nb",
         "wl"
       ],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-wren",
@@ -7182,7 +7626,8 @@
       },
       "language": "wren",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-xeora",
@@ -7208,7 +7653,8 @@
       ],
       "requires": [
         "markup"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-xml-doc",
@@ -7232,7 +7678,8 @@
       "aliases": [],
       "requires": [
         "markup"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-xojo",
@@ -7254,7 +7701,8 @@
       },
       "language": "xojo",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-xquery",
@@ -7278,7 +7726,8 @@
       "aliases": [],
       "requires": [
         "markup"
-      ]
+      ],
+      "reviewed": true
     },
     {
       "id": "prism-lang-yaml",
@@ -7302,7 +7751,8 @@
       "aliases": [
         "yml"
       ],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-yang",
@@ -7324,7 +7774,8 @@
       },
       "language": "yang",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-lang-zig",
@@ -7346,7 +7797,8 @@
       },
       "language": "zig",
       "aliases": [],
-      "requires": []
+      "requires": [],
+      "reviewed": true
     },
     {
       "id": "prism-theme-default",
@@ -7366,7 +7818,8 @@
         "version": "1.29.0",
         "path": "themes/prism.css"
       },
-      "scheme": "light"
+      "scheme": "light",
+      "reviewed": true
     },
     {
       "id": "prism-theme-coy",
@@ -7386,7 +7839,8 @@
         "version": "1.29.0",
         "path": "themes/prism-coy.css"
       },
-      "scheme": "light"
+      "scheme": "light",
+      "reviewed": true
     },
     {
       "id": "prism-theme-dark",
@@ -7406,7 +7860,8 @@
         "version": "1.29.0",
         "path": "themes/prism-dark.css"
       },
-      "scheme": "dark"
+      "scheme": "dark",
+      "reviewed": true
     },
     {
       "id": "prism-theme-funky",
@@ -7426,7 +7881,8 @@
         "version": "1.29.0",
         "path": "themes/prism-funky.css"
       },
-      "scheme": "dark"
+      "scheme": "dark",
+      "reviewed": true
     },
     {
       "id": "prism-theme-okaidia",
@@ -7446,7 +7902,8 @@
         "version": "1.29.0",
         "path": "themes/prism-okaidia.css"
       },
-      "scheme": "dark"
+      "scheme": "dark",
+      "reviewed": true
     },
     {
       "id": "prism-theme-solarizedlight",
@@ -7466,7 +7923,8 @@
         "version": "1.29.0",
         "path": "themes/prism-solarizedlight.css"
       },
-      "scheme": "dark"
+      "scheme": "dark",
+      "reviewed": true
     },
     {
       "id": "prism-theme-tomorrow",
@@ -7486,7 +7944,8 @@
         "version": "1.29.0",
         "path": "themes/prism-tomorrow.css"
       },
-      "scheme": "dark"
+      "scheme": "dark",
+      "reviewed": true
     },
     {
       "id": "prism-theme-twilight",
@@ -7506,7 +7965,1319 @@
         "version": "1.29.0",
         "path": "themes/prism-twilight.css"
       },
-      "scheme": "dark"
+      "scheme": "dark",
+      "reviewed": true
+    },
+    {
+      "id": "markdown-it",
+      "name": "Markdown 解析核心",
+      "version": "15.0.3",
+      "description": "markdown-it 解析器本体（多数插件依赖它）。",
+      "descriptionEn": "Markdown-it - modern pluggable markdown parser.",
+      "source": "market",
+      "badge": "unreviewed",
+      "reviewed": false,
+      "legacyBadge": "community",
+      "author": "",
+      "homepage": "https://www.npmjs.com/package/markdown-it",
+      "download": "https://registry.npmjs.org/markdown-it/-/markdown-it-15.0.3.tgz",
+      "sha256": "98a7453983ab0e268c17dbd5260bf7190ba46b4cca912327fc1c1a2578e4b56d",
+      "sizeKb": 574,
+      "weeklyDownloads": 40000248,
+      "deps": [],
+      "scannedAt": "2026-11-18T08:33:21Z",
+      "category": "内容组织",
+      "conflicts": [
+        "parser-core"
+      ]
+    },
+    {
+      "id": "markdown-exit",
+      "name": "Markdown 解析核心（exit 分支）",
+      "version": "2.1.3",
+      "description": "Markdown 解析核心的社区分支实现。",
+      "descriptionEn": "A TypeScript rewrite of markdown-it with enhancements",
+      "source": "market",
+      "badge": "unreviewed",
+      "reviewed": false,
+      "legacyBadge": "community",
+      "author": "",
+      "homepage": "https://www.npmjs.com/package/markdown-exit",
+      "download": "https://registry.npmjs.org/markdown-exit/-/markdown-exit-2.1.3.tgz",
+      "sha256": "1814dc69e2189089e4597c4784be1a8e5037cfb946e4e0a643639243a590143c",
+      "sizeKb": 41,
+      "weeklyDownloads": 480881,
+      "deps": [],
+      "scannedAt": "2026-11-18T08:33:22Z",
+      "category": "内容组织",
+      "conflicts": [
+        "parser-core"
+      ]
+    },
+    {
+      "id": "@comark/markdown-it",
+      "name": "Comark 渲染扩展",
+      "version": "0.4.0",
+      "description": "Comark 渲染扩展。来自 npm 包 @comark/markdown-it（190,210/周）。社区第三方作品，未经审核，安装前请自行确认来源与风险。",
+      "descriptionEn": "Comark (Component in Markdown) support for markdown-it",
+      "source": "market",
+      "badge": "unreviewed",
+      "reviewed": false,
+      "legacyBadge": "community",
+      "author": "",
+      "homepage": "https://www.npmjs.com/package/@comark/markdown-it",
+      "download": "https://registry.npmjs.org/@comark/markdown-it/-/markdown-it-0.4.0.tgz",
+      "sha256": "10a84e7293740e67d18cc240693ce11bf12287220c2da5452252b4f15ba6b988",
+      "sizeKb": 8,
+      "weeklyDownloads": 190210,
+      "deps": [],
+      "scannedAt": "2026-11-18T08:33:23Z",
+      "category": "内容组织",
+      "conflicts": [
+        "parser-core"
+      ]
+    },
+    {
+      "id": "markdown-it-mathjax3",
+      "name": "MathJax 数学公式",
+      "version": "5.2.0",
+      "description": "MathJax 数学公式。来自 npm 包 markdown-it-mathjax3（38,972/周）。社区第三方作品，未经审核，安装前请自行确认来源与风险。",
+      "descriptionEn": "Fast math support for markdown-it with MathJax",
+      "source": "market",
+      "badge": "unreviewed",
+      "reviewed": false,
+      "legacyBadge": "community",
+      "author": "",
+      "homepage": "https://www.npmjs.com/package/markdown-it-mathjax3",
+      "download": "https://registry.npmjs.org/markdown-it-mathjax3/-/markdown-it-mathjax3-5.2.0.tgz",
+      "sha256": "2722123d946d779a480ebd9bfe413e03e538620da0089c18e6292325a8b856b1",
+      "sizeKb": 5,
+      "weeklyDownloads": 38972,
+      "deps": [],
+      "scannedAt": "2026-11-18T08:33:24Z",
+      "category": "代码与公式",
+      "conflicts": [
+        "formula"
+      ]
+    },
+    {
+      "id": "markdown-it-katex",
+      "name": "KaTeX 数学公式",
+      "version": "2.0.3",
+      "description": "把 $行内$ 与 $$块级$$ 公式用 KaTeX 渲染。",
+      "descriptionEn": "Fast math support for markdown-it with KaTeX",
+      "source": "market",
+      "badge": "unreviewed",
+      "reviewed": false,
+      "legacyBadge": "community",
+      "author": "",
+      "homepage": "https://www.npmjs.com/package/markdown-it-katex",
+      "download": "https://registry.npmjs.org/markdown-it-katex/-/markdown-it-katex-2.0.3.tgz",
+      "sha256": "feb335bf87caa077448dc4d15e020f2b9d9a30f35cc649151d96fca0f46f5c0c",
+      "sizeKb": 7,
+      "weeklyDownloads": 35611,
+      "deps": [],
+      "scannedAt": "2026-11-18T08:33:25Z",
+      "category": "代码与公式",
+      "conflicts": [
+        "formula"
+      ]
+    },
+    {
+      "id": "@mdit/plugin-tasklist",
+      "name": "任务清单",
+      "version": "1.3.0",
+      "description": "任务清单。来自 npm 包 @mdit/plugin-tasklist（32,387/周）。社区第三方作品，未经审核，安装前请自行确认来源与风险。",
+      "descriptionEn": "Tasklist plugin for MarkdownIt",
+      "source": "market",
+      "badge": "unreviewed",
+      "reviewed": false,
+      "legacyBadge": "community",
+      "author": "",
+      "homepage": "https://www.npmjs.com/package/@mdit/plugin-tasklist",
+      "download": "https://registry.npmjs.org/@mdit/plugin-tasklist/-/plugin-tasklist-1.3.0.tgz",
+      "sha256": "b77c70754fa4c3247848fe55acfd6576f9af4470619167e9e70fd5da2f2a4c36",
+      "sizeKb": 8,
+      "weeklyDownloads": 32387,
+      "deps": [],
+      "scannedAt": "2026-11-18T08:33:27Z",
+      "category": "交互控件",
+      "conflicts": [
+        "task-list"
+      ]
+    },
+    {
+      "id": "markdown-it-lazy-headers",
+      "name": "·lazy标题",
+      "version": "0.1.3",
+      "description": "·lazy标题。来自 npm 包 markdown-it-lazy-headers（32,133/周）。社区第三方作品，未经审核，安装前请自行确认来源与风险。",
+      "descriptionEn": "Lazy ATX headers plugin for markdown-it",
+      "source": "market",
+      "badge": "unreviewed",
+      "reviewed": false,
+      "legacyBadge": "community",
+      "author": "",
+      "homepage": "https://www.npmjs.com/package/markdown-it-lazy-headers",
+      "download": "https://registry.npmjs.org/markdown-it-lazy-headers/-/markdown-it-lazy-headers-0.1.3.tgz",
+      "sha256": "1812801777aec0505a1bdae2634845bed916c0d1a6c7ec9789823e241f6ab662",
+      "sizeKb": 3,
+      "weeklyDownloads": 32133,
+      "deps": [],
+      "scannedAt": "2026-11-18T08:33:28Z",
+      "nameSource": "template",
+      "category": "排版增强"
+    },
+    {
+      "id": "@mdit/plugin-footnote",
+      "name": "脚注",
+      "version": "1.2.0",
+      "description": "脚注。来自 npm 包 @mdit/plugin-footnote（30,366/周）。社区第三方作品，未经审核，安装前请自行确认来源与风险。",
+      "descriptionEn": "Footnote plugin for MarkdownIt",
+      "source": "market",
+      "badge": "unreviewed",
+      "reviewed": false,
+      "legacyBadge": "community",
+      "author": "",
+      "homepage": "https://www.npmjs.com/package/@mdit/plugin-footnote",
+      "download": "https://registry.npmjs.org/@mdit/plugin-footnote/-/plugin-footnote-1.2.0.tgz",
+      "sha256": "5f2bcd947360ecac3f395471db88322366d0d0246c33a137f6a6be370522968b",
+      "sizeKb": 12,
+      "weeklyDownloads": 30366,
+      "deps": [],
+      "scannedAt": "2026-11-18T08:33:29Z",
+      "category": "内容组织",
+      "conflicts": [
+        "footnote"
+      ]
+    },
+    {
+      "id": "@mdit/plugin-katex",
+      "name": "KaTeX 数学公式",
+      "version": "1.2.0",
+      "description": "KaTeX 数学公式。来自 npm 包 @mdit/plugin-katex（27,635/周）。社区第三方作品，未经审核，安装前请自行确认来源与风险。",
+      "descriptionEn": "Katex plugin for MarkdownIt",
+      "source": "market",
+      "badge": "unreviewed",
+      "reviewed": false,
+      "legacyBadge": "community",
+      "author": "",
+      "homepage": "https://www.npmjs.com/package/@mdit/plugin-katex",
+      "download": "https://registry.npmjs.org/@mdit/plugin-katex/-/plugin-katex-1.2.0.tgz",
+      "sha256": "486537df7440a0cbd365748d2eddc35a364eb2d4747a7a6ec72636e31d6e4b5a",
+      "sizeKb": 10,
+      "weeklyDownloads": 27635,
+      "deps": [],
+      "scannedAt": "2026-11-18T08:33:30Z",
+      "category": "代码与公式",
+      "conflicts": [
+        "formula"
+      ]
+    },
+    {
+      "id": "markdown-it-toc-and-anchor",
+      "name": "目录·and锚点",
+      "version": "4.2.0",
+      "description": "目录·and锚点。来自 npm 包 markdown-it-toc-and-anchor（26,851/周）。社区第三方作品，未经审核，安装前请自行确认来源与风险。",
+      "descriptionEn": "markdown-it plugin to add toc and anchor links in headings",
+      "source": "market",
+      "badge": "unreviewed",
+      "reviewed": false,
+      "legacyBadge": "community",
+      "author": "",
+      "homepage": "https://www.npmjs.com/package/markdown-it-toc-and-anchor",
+      "download": "https://registry.npmjs.org/markdown-it-toc-and-anchor/-/markdown-it-toc-and-anchor-4.2.0.tgz",
+      "sha256": "baf1a243e7b922ab7d418aff0ac468db8c135a3128747aef241e9725f2c1318b",
+      "sizeKb": 8,
+      "weeklyDownloads": 26851,
+      "deps": [],
+      "scannedAt": "2026-11-18T08:33:31Z",
+      "nameSource": "template",
+      "category": "内容组织",
+      "conflicts": [
+        "toc"
+      ]
+    },
+    {
+      "id": "@iktakahiro/markdown-it-katex",
+      "name": "数学公式",
+      "version": "4.0.1",
+      "description": "数学公式。来自 npm 包 @iktakahiro/markdown-it-katex（25,626/周）。社区第三方作品，未经审核，安装前请自行确认来源与风险。",
+      "descriptionEn": "Fast math support for markdown-it with KaTeX",
+      "source": "market",
+      "badge": "unreviewed",
+      "reviewed": false,
+      "legacyBadge": "community",
+      "author": "",
+      "homepage": "https://www.npmjs.com/package/@iktakahiro/markdown-it-katex",
+      "download": "https://registry.npmjs.org/@iktakahiro/markdown-it-katex/-/markdown-it-katex-4.0.1.tgz",
+      "sha256": "d5f693802182472c1f04cb13ed3d43eec3674811c20614edec90943fb38f8295",
+      "sizeKb": 7,
+      "weeklyDownloads": 25626,
+      "deps": [],
+      "scannedAt": "2026-11-18T08:33:33Z",
+      "nameSource": "template",
+      "category": "代码与公式",
+      "conflicts": [
+        "formula"
+      ]
+    },
+    {
+      "id": "markdown-it-amsmath",
+      "name": "社区插件（markdown-it-amsmath）",
+      "version": "0.4.0",
+      "description": "社区插件（markdown-it-amsmath）。来自 npm 包 markdown-it-amsmath（25,269/周）。社区第三方作品，未经审核，安装前请自行确认来源与风险。",
+      "descriptionEn": "A markdown-it plugin for amsmath LaTeX environments.",
+      "source": "market",
+      "badge": "unreviewed",
+      "reviewed": false,
+      "legacyBadge": "community",
+      "author": "",
+      "homepage": "https://www.npmjs.com/package/markdown-it-amsmath",
+      "download": "https://registry.npmjs.org/markdown-it-amsmath/-/markdown-it-amsmath-0.4.0.tgz",
+      "sha256": "bc5c16d8d057d32e76d06eefcdba3ae1bb67bc1a2929ed92cfc827e35b30a340",
+      "sizeKb": 11,
+      "weeklyDownloads": 25269,
+      "deps": [],
+      "scannedAt": "2026-11-18T08:33:34Z",
+      "nameSource": "template",
+      "category": "代码与公式",
+      "conflicts": [
+        "formula"
+      ]
+    },
+    {
+      "id": "markdown-it-image-lazy-loading",
+      "name": "社区插件（markdown-it-image-lazy-loading）",
+      "version": "2.1.0",
+      "description": "社区插件（markdown-it-image-lazy-loading）。来自 npm 包 markdown-it-image-lazy-loading（21,041/周）。社区第三方作品，未经审核，安装前请自行确认来源与风险。",
+      "descriptionEn": "a markdown-it plugin supporting Chrome 75's native image lazy-loading",
+      "source": "market",
+      "badge": "unreviewed",
+      "reviewed": false,
+      "legacyBadge": "community",
+      "author": "",
+      "homepage": "https://www.npmjs.com/package/markdown-it-image-lazy-loading",
+      "download": "https://registry.npmjs.org/markdown-it-image-lazy-loading/-/markdown-it-image-lazy-loading-2.1.0.tgz",
+      "sha256": "c4be0633f194805a4091888d677571fe0831fb15ba8c5868a4925a6e91c6aa1e",
+      "sizeKb": 2,
+      "weeklyDownloads": 21041,
+      "deps": [],
+      "scannedAt": "2026-11-18T08:33:35Z",
+      "nameSource": "template",
+      "category": "排版增强",
+      "conflicts": [
+        "image-lazyload"
+      ]
+    },
+    {
+      "id": "markdown-it-directive",
+      "name": "社区插件（markdown-it-directive）",
+      "version": "2.0.6",
+      "description": "社区插件（markdown-it-directive）。来自 npm 包 markdown-it-directive（19,943/周）。社区第三方作品，未经审核，安装前请自行确认来源与风险。",
+      "descriptionEn": "Directive extension for markdown-it markdown parser.",
+      "source": "market",
+      "badge": "unreviewed",
+      "reviewed": false,
+      "legacyBadge": "community",
+      "author": "",
+      "homepage": "https://www.npmjs.com/package/markdown-it-directive",
+      "download": "https://registry.npmjs.org/markdown-it-directive/-/markdown-it-directive-2.0.6.tgz",
+      "sha256": "afca88584f0920f54e92aedda388ad0d1ca13c3d2c8573b480ececa65c58c90c",
+      "sizeKb": 7,
+      "weeklyDownloads": 19943,
+      "deps": [],
+      "scannedAt": "2026-11-18T08:33:36Z",
+      "nameSource": "template",
+      "category": "排版增强"
+    },
+    {
+      "id": "@toycode/markdown-it-class",
+      "name": "类名",
+      "version": "1.2.4",
+      "description": "类名。来自 npm 包 @toycode/markdown-it-class（19,360/周）。社区第三方作品，未经审核，安装前请自行确认来源与风险。",
+      "descriptionEn": "A markdown-it plugin that add classes by tag name",
+      "source": "market",
+      "badge": "unreviewed",
+      "reviewed": false,
+      "legacyBadge": "community",
+      "author": "",
+      "homepage": "https://www.npmjs.com/package/@toycode/markdown-it-class",
+      "download": "https://registry.npmjs.org/@toycode/markdown-it-class/-/markdown-it-class-1.2.4.tgz",
+      "sha256": "b9fc4bd3c119a1107b59179fe8c41a239658877563a4aba773b3f139dfaace7e",
+      "sizeKb": 3,
+      "weeklyDownloads": 19360,
+      "deps": [],
+      "scannedAt": "2026-11-18T08:33:38Z",
+      "nameSource": "template",
+      "category": "排版增强"
+    },
+    {
+      "id": "@mdit/plugin-mark",
+      "name": "高亮标记",
+      "version": "2.2.0",
+      "description": "高亮标记。来自 npm 包 @mdit/plugin-mark（19,208/周）。社区第三方作品，未经审核，安装前请自行确认来源与风险。",
+      "descriptionEn": "Mark plugin for MarkdownIt",
+      "source": "market",
+      "badge": "unreviewed",
+      "reviewed": false,
+      "legacyBadge": "community",
+      "author": "",
+      "homepage": "https://www.npmjs.com/package/@mdit/plugin-mark",
+      "download": "https://registry.npmjs.org/@mdit/plugin-mark/-/plugin-mark-2.2.0.tgz",
+      "sha256": "4c924973d60a36d29b571d8087210c0cc4ec937f3b307ae32cca766c901aa190",
+      "sizeKb": 6,
+      "weeklyDownloads": 19208,
+      "deps": [],
+      "scannedAt": "2026-11-18T08:33:39Z",
+      "category": "排版增强",
+      "conflicts": [
+        "mark"
+      ]
+    },
+    {
+      "id": "@traptitech/markdown-it-katex",
+      "name": "数学公式",
+      "version": "3.6.0",
+      "description": "数学公式。来自 npm 包 @traptitech/markdown-it-katex（19,084/周）。社区第三方作品，未经审核，安装前请自行确认来源与风险。",
+      "descriptionEn": "Fast math support for markdown-it with KaTeX",
+      "source": "market",
+      "badge": "unreviewed",
+      "reviewed": false,
+      "legacyBadge": "community",
+      "author": "",
+      "homepage": "https://www.npmjs.com/package/@traptitech/markdown-it-katex",
+      "download": "https://registry.npmjs.org/@traptitech/markdown-it-katex/-/markdown-it-katex-3.6.0.tgz",
+      "sha256": "71786e0ab251bfa75642b173be0d9b7cd863f105159cc48a12fb7b6cf4af14cd",
+      "sizeKb": 7,
+      "weeklyDownloads": 19084,
+      "deps": [],
+      "scannedAt": "2026-11-18T08:33:40Z",
+      "nameSource": "template",
+      "category": "代码与公式",
+      "conflicts": [
+        "formula"
+      ]
+    },
+    {
+      "id": "markdown-it-sanitizer",
+      "name": "社区插件（markdown-it-sanitizer）",
+      "version": "0.4.3",
+      "description": "社区插件（markdown-it-sanitizer）。来自 npm 包 markdown-it-sanitizer（18,979/周）。社区第三方作品，未经审核，安装前请自行确认来源与风险。",
+      "descriptionEn": "sanitizer for markdown-it.",
+      "source": "market",
+      "badge": "unreviewed",
+      "reviewed": false,
+      "legacyBadge": "community",
+      "author": "",
+      "homepage": "https://www.npmjs.com/package/markdown-it-sanitizer",
+      "download": "https://registry.npmjs.org/markdown-it-sanitizer/-/markdown-it-sanitizer-0.4.3.tgz",
+      "sha256": "1a43ffbf1490f8ee976b97d45378b181fea1020fe9151bc407fa06e6465520d4",
+      "sizeKb": 6,
+      "weeklyDownloads": 18979,
+      "deps": [],
+      "scannedAt": "2026-11-18T08:33:41Z",
+      "nameSource": "template",
+      "category": "内容组织"
+    },
+    {
+      "id": "markdown-it-myst-extras",
+      "name": "社区插件（markdown-it-myst-extras）",
+      "version": "0.3.0",
+      "description": "社区插件（markdown-it-myst-extras）。来自 npm 包 markdown-it-myst-extras（18,169/周）。社区第三方作品，未经审核，安装前请自行确认来源与风险。",
+      "descriptionEn": "Additional markdown-it plugins required for the MyST specification.",
+      "source": "market",
+      "badge": "unreviewed",
+      "reviewed": false,
+      "legacyBadge": "community",
+      "author": "",
+      "homepage": "https://www.npmjs.com/package/markdown-it-myst-extras",
+      "download": "https://registry.npmjs.org/markdown-it-myst-extras/-/markdown-it-myst-extras-0.3.0.tgz",
+      "sha256": "9bf64d442a26733bd095b16b5cf2643a36b729aa60a4a2deb3ba66e526019abf",
+      "sizeKb": 16,
+      "weeklyDownloads": 18169,
+      "deps": [],
+      "scannedAt": "2026-11-18T08:33:42Z",
+      "nameSource": "template",
+      "category": "排版增强"
+    },
+    {
+      "id": "@mdit/plugin-uml",
+      "name": "UML 图表",
+      "version": "2.1.0",
+      "description": "UML 图表。来自 npm 包 @mdit/plugin-uml（17,791/周）。社区第三方作品，未经审核，安装前请自行确认来源与风险。",
+      "descriptionEn": "uml plugin for MarkdownIt",
+      "source": "market",
+      "badge": "unreviewed",
+      "reviewed": false,
+      "legacyBadge": "community",
+      "author": "",
+      "homepage": "https://www.npmjs.com/package/@mdit/plugin-uml",
+      "download": "https://registry.npmjs.org/@mdit/plugin-uml/-/plugin-uml-2.1.0.tgz",
+      "sha256": "9de2cc24c9da396830bf764ed286a7f38387288e6a6297186fa6bf128c8b7301",
+      "sizeKb": 7,
+      "weeklyDownloads": 17791,
+      "deps": [],
+      "scannedAt": "2026-11-18T08:33:44Z",
+      "category": "图表可视化",
+      "conflicts": [
+        "uml"
+      ]
+    },
+    {
+      "id": "@mdit/plugin-plantuml",
+      "name": "PlantUML 时序图",
+      "version": "2.1.0",
+      "description": "PlantUML 时序图。来自 npm 包 @mdit/plugin-plantuml（16,959/周）。社区第三方作品，未经审核，安装前请自行确认来源与风险。",
+      "descriptionEn": "plantuml plugin for MarkdownIt",
+      "source": "market",
+      "badge": "unreviewed",
+      "reviewed": false,
+      "legacyBadge": "community",
+      "author": "",
+      "homepage": "https://www.npmjs.com/package/@mdit/plugin-plantuml",
+      "download": "https://registry.npmjs.org/@mdit/plugin-plantuml/-/plugin-plantuml-2.1.0.tgz",
+      "sha256": "4c93f90225d22fb9feb31755841eb29eea916a77582f3d776d4e604feac856fc",
+      "sizeKb": 88,
+      "weeklyDownloads": 16959,
+      "deps": [],
+      "scannedAt": "2026-11-18T08:33:45Z",
+      "category": "图表可视化",
+      "conflicts": [
+        "uml"
+      ]
+    },
+    {
+      "id": "@mdit/plugin-img-size",
+      "name": "图片尺寸",
+      "version": "1.3.0",
+      "description": "图片尺寸。来自 npm 包 @mdit/plugin-img-size（16,917/周）。社区第三方作品，未经审核，安装前请自行确认来源与风险。",
+      "descriptionEn": "Image size plugin for MarkdownIt",
+      "source": "market",
+      "badge": "unreviewed",
+      "reviewed": false,
+      "legacyBadge": "community",
+      "author": "",
+      "homepage": "https://www.npmjs.com/package/@mdit/plugin-img-size",
+      "download": "https://registry.npmjs.org/@mdit/plugin-img-size/-/plugin-img-size-1.3.0.tgz",
+      "sha256": "f354ee237d9339d5873e4544ca7932f65f39f777e25da65b8739a00e571cdf96",
+      "sizeKb": 18,
+      "weeklyDownloads": 16917,
+      "deps": [],
+      "scannedAt": "2026-11-18T08:33:47Z",
+      "category": "排版增强",
+      "conflicts": [
+        "image-size"
+      ]
+    },
+    {
+      "id": "myst-parser",
+      "name": "社区插件（myst-parser）",
+      "version": "1.7.5",
+      "description": "社区插件（myst-parser）。来自 npm 包 myst-parser（16,855/周）。社区第三方作品，未经审核，安装前请自行确认来源与风险。",
+      "descriptionEn": "Markdown parser for MyST markdown in JavaScript",
+      "source": "market",
+      "badge": "unreviewed",
+      "reviewed": false,
+      "legacyBadge": "community",
+      "author": "",
+      "homepage": "https://www.npmjs.com/package/myst-parser",
+      "download": "https://registry.npmjs.org/myst-parser/-/myst-parser-1.7.5.tgz",
+      "sha256": "6432c01fa32a05897b51f4c1a85abd1d0729e193edc03a1e5746e973ce55ea6b",
+      "sizeKb": 165,
+      "weeklyDownloads": 16855,
+      "deps": [],
+      "scannedAt": "2026-11-18T08:33:49Z",
+      "nameSource": "template",
+      "category": "内容组织"
+    },
+    {
+      "id": "@mdit/plugin-figure",
+      "name": "图片题注",
+      "version": "1.3.0",
+      "description": "图片题注。来自 npm 包 @mdit/plugin-figure（15,877/周）。社区第三方作品，未经审核，安装前请自行确认来源与风险。",
+      "descriptionEn": "Figure plugin for MarkdownIt",
+      "source": "market",
+      "badge": "unreviewed",
+      "reviewed": false,
+      "legacyBadge": "community",
+      "author": "",
+      "homepage": "https://www.npmjs.com/package/@mdit/plugin-figure",
+      "download": "https://registry.npmjs.org/@mdit/plugin-figure/-/plugin-figure-1.3.0.tgz",
+      "sha256": "ddd2647be19ea3913c4f642ad7d6831250a66f81937617d0328e86ce3d893a45",
+      "sizeKb": 10,
+      "weeklyDownloads": 15877,
+      "deps": [],
+      "scannedAt": "2026-11-18T08:33:50Z",
+      "category": "排版增强",
+      "conflicts": [
+        "image-figure"
+      ]
+    },
+    {
+      "id": "markdown-it-imsize",
+      "name": "图片尺寸",
+      "version": "2.0.1",
+      "description": "用 =宽x高 语法控制图片显示尺寸。",
+      "descriptionEn": "Markdown-it plugin to specify image size",
+      "source": "market",
+      "badge": "unreviewed",
+      "reviewed": false,
+      "legacyBadge": "community",
+      "author": "",
+      "homepage": "https://www.npmjs.com/package/markdown-it-imsize",
+      "download": "https://registry.npmjs.org/markdown-it-imsize/-/markdown-it-imsize-2.0.1.tgz",
+      "sha256": "a20a7f909afa34eb4ea210870bb3904b25af172bc80ccc3c80ce7e254ea9d48c",
+      "sizeKb": 267,
+      "weeklyDownloads": 15732,
+      "deps": [],
+      "scannedAt": "2026-11-18T08:33:53Z",
+      "category": "排版增强",
+      "conflicts": [
+        "image-size"
+      ]
+    },
+    {
+      "id": "@mdit/plugin-img-lazyload",
+      "name": "图片·lazyload",
+      "version": "1.1.5",
+      "description": "图片·lazyload。来自 npm 包 @mdit/plugin-img-lazyload（15,411/周）。社区第三方作品，未经审核，安装前请自行确认来源与风险。",
+      "descriptionEn": "Image lazyload plugin for MarkdownIt",
+      "source": "market",
+      "badge": "unreviewed",
+      "reviewed": false,
+      "legacyBadge": "community",
+      "author": "",
+      "homepage": "https://www.npmjs.com/package/@mdit/plugin-img-lazyload",
+      "download": "https://registry.npmjs.org/@mdit/plugin-img-lazyload/-/plugin-img-lazyload-1.1.5.tgz",
+      "sha256": "1c10efa178d9b3dba9e0593c207d67bc179088a67f3990a4b796c671848f9eb2",
+      "sizeKb": 3,
+      "weeklyDownloads": 15411,
+      "deps": [],
+      "scannedAt": "2026-11-18T08:33:55Z",
+      "nameSource": "template",
+      "category": "排版增强",
+      "conflicts": [
+        "image-lazyload"
+      ]
+    },
+    {
+      "id": "@mdit/plugin-include",
+      "name": "文件包含",
+      "version": "2.0.1",
+      "description": "文件包含。来自 npm 包 @mdit/plugin-include（13,896/周）。社区第三方作品，未经审核，安装前请自行确认来源与风险。",
+      "descriptionEn": "Include plugin for MarkdownIt",
+      "source": "market",
+      "badge": "unreviewed",
+      "reviewed": false,
+      "legacyBadge": "community",
+      "author": "",
+      "homepage": "https://www.npmjs.com/package/@mdit/plugin-include",
+      "download": "https://registry.npmjs.org/@mdit/plugin-include/-/plugin-include-2.0.1.tgz",
+      "sha256": "b29b46a5655199e046dfd3005867239613927efbca31e7b90af0db1174d5c058",
+      "sizeKb": 21,
+      "weeklyDownloads": 13896,
+      "deps": [],
+      "scannedAt": "2026-11-18T08:33:57Z",
+      "category": "内容组织"
+    },
+    {
+      "id": "@mdit/plugin-katex-slim",
+      "name": "数学公式·slim",
+      "version": "1.2.0",
+      "description": "数学公式·slim。来自 npm 包 @mdit/plugin-katex-slim（13,889/周）。社区第三方作品，未经审核，安装前请自行确认来源与风险。",
+      "descriptionEn": "katex-slim plugin for MarkdownIt",
+      "source": "market",
+      "badge": "unreviewed",
+      "reviewed": false,
+      "legacyBadge": "community",
+      "author": "",
+      "homepage": "https://www.npmjs.com/package/@mdit/plugin-katex-slim",
+      "download": "https://registry.npmjs.org/@mdit/plugin-katex-slim/-/plugin-katex-slim-1.2.0.tgz",
+      "sha256": "77dcc4b8c3972744d39ffbfe29bdf34edbd3a092b58bec74b1ebefb1e6d16e7d",
+      "sizeKb": 5,
+      "weeklyDownloads": 13889,
+      "deps": [],
+      "scannedAt": "2026-11-18T08:33:58Z",
+      "nameSource": "template",
+      "category": "代码与公式",
+      "conflicts": [
+        "formula"
+      ]
+    },
+    {
+      "id": "markdown-it-html5-media",
+      "name": "HTML5 音视频",
+      "version": "0.8.0",
+      "description": "渲染 HTML5 音视频标签。",
+      "descriptionEn": "Lightweight support for HTML5 video/audio using markdown image syntax",
+      "source": "market",
+      "badge": "unreviewed",
+      "reviewed": false,
+      "legacyBadge": "community",
+      "author": "",
+      "homepage": "https://www.npmjs.com/package/markdown-it-html5-media",
+      "download": "https://registry.npmjs.org/markdown-it-html5-media/-/markdown-it-html5-media-0.8.0.tgz",
+      "sha256": "b5d83a38795ab3dbbc90403436b4a6fcbec6b652c3213289b16edf1b6ea4f8a8",
+      "sizeKb": 392,
+      "weeklyDownloads": 13238,
+      "deps": [],
+      "scannedAt": "2026-11-18T08:34:00Z",
+      "category": "排版增强"
+    },
+    {
+      "id": "@mdit/plugin-img-mark",
+      "name": "图片标记",
+      "version": "1.1.5",
+      "description": "图片标记。来自 npm 包 @mdit/plugin-img-mark（13,217/周）。社区第三方作品，未经审核，安装前请自行确认来源与风险。",
+      "descriptionEn": "Image mark plugin for MarkdownIt",
+      "source": "market",
+      "badge": "unreviewed",
+      "reviewed": false,
+      "legacyBadge": "community",
+      "author": "",
+      "homepage": "https://www.npmjs.com/package/@mdit/plugin-img-mark",
+      "download": "https://registry.npmjs.org/@mdit/plugin-img-mark/-/plugin-img-mark-1.1.5.tgz",
+      "sha256": "e9e3a52b6c49896b013f7627e132bb2715479efa5fcccd280ccdbcb4ec79b68a",
+      "sizeKb": 3,
+      "weeklyDownloads": 13217,
+      "deps": [],
+      "scannedAt": "2026-11-18T08:34:02Z",
+      "category": "排版增强"
+    },
+    {
+      "id": "@mdit/plugin-spoiler",
+      "name": "剧透遮挡",
+      "version": "2.2.0",
+      "description": "剧透遮挡。来自 npm 包 @mdit/plugin-spoiler（12,777/周）。社区第三方作品，未经审核，安装前请自行确认来源与风险。",
+      "descriptionEn": "Spoiler plugin for MarkdownIt",
+      "source": "market",
+      "badge": "unreviewed",
+      "reviewed": false,
+      "legacyBadge": "community",
+      "author": "",
+      "homepage": "https://www.npmjs.com/package/@mdit/plugin-spoiler",
+      "download": "https://registry.npmjs.org/@mdit/plugin-spoiler/-/plugin-spoiler-2.2.0.tgz",
+      "sha256": "4d2110047ff410639710291b88f5ebbecb3f1a8b61c0753a03e6cfa7aa19628e",
+      "sizeKb": 7,
+      "weeklyDownloads": 12777,
+      "deps": [],
+      "scannedAt": "2026-11-18T08:34:04Z",
+      "category": "交互控件"
+    },
+    {
+      "id": "@mdit/plugin-stylize",
+      "name": "社区插件（@mdit/plugin-stylize）",
+      "version": "2.0.5",
+      "description": "社区插件（@mdit/plugin-stylize）。来自 npm 包 @mdit/plugin-stylize（12,131/周）。社区第三方作品，未经审核，安装前请自行确认来源与风险。",
+      "descriptionEn": "stylize plugin for MarkdownIt",
+      "source": "market",
+      "badge": "unreviewed",
+      "reviewed": false,
+      "legacyBadge": "community",
+      "author": "",
+      "homepage": "https://www.npmjs.com/package/@mdit/plugin-stylize",
+      "download": "https://registry.npmjs.org/@mdit/plugin-stylize/-/plugin-stylize-2.0.5.tgz",
+      "sha256": "f008e357f371220ae0a7f83a61ae418ead7f36618ec3faabb766ae2034436b8b",
+      "sizeKb": 7,
+      "weeklyDownloads": 12131,
+      "deps": [],
+      "scannedAt": "2026-11-18T08:34:05Z",
+      "nameSource": "template",
+      "category": "排版增强"
+    },
+    {
+      "id": "@mdit/plugin-mathjax-slim",
+      "name": "MathJax 数学公式（精简版）",
+      "version": "2.1.0",
+      "description": "MathJax 数学公式（精简版）。来自 npm 包 @mdit/plugin-mathjax-slim（11,990/周）。社区第三方作品，未经审核，安装前请自行确认来源与风险。",
+      "descriptionEn": "Mathjax plugin for MarkdownIt",
+      "source": "market",
+      "badge": "unreviewed",
+      "reviewed": false,
+      "legacyBadge": "community",
+      "author": "",
+      "homepage": "https://www.npmjs.com/package/@mdit/plugin-mathjax-slim",
+      "download": "https://registry.npmjs.org/@mdit/plugin-mathjax-slim/-/plugin-mathjax-slim-2.1.0.tgz",
+      "sha256": "a1900b555a5355de3afc6e1e5acba2e4799ce3a8299608d5454518cd84becb62",
+      "sizeKb": 34,
+      "weeklyDownloads": 11990,
+      "deps": [],
+      "scannedAt": "2026-11-18T08:34:06Z",
+      "category": "代码与公式",
+      "conflicts": [
+        "formula"
+      ]
+    },
+    {
+      "id": "@mdit/plugin-demo",
+      "name": "社区插件（@mdit/plugin-demo）",
+      "version": "2.1.1",
+      "description": "社区插件（@mdit/plugin-demo）。来自 npm 包 @mdit/plugin-demo（11,944/周）。社区第三方作品，未经审核，安装前请自行确认来源与风险。",
+      "descriptionEn": "demo plugin for MarkdownIt",
+      "source": "market",
+      "badge": "unreviewed",
+      "reviewed": false,
+      "legacyBadge": "community",
+      "author": "",
+      "homepage": "https://www.npmjs.com/package/@mdit/plugin-demo",
+      "download": "https://registry.npmjs.org/@mdit/plugin-demo/-/plugin-demo-2.1.1.tgz",
+      "sha256": "d233255fb227a32a822183a5dda71d9ee2c7715b67b322ca21149a2718742c2c",
+      "sizeKb": 11,
+      "weeklyDownloads": 11944,
+      "deps": [],
+      "scannedAt": "2026-11-18T08:34:07Z",
+      "nameSource": "template",
+      "category": "内容组织"
+    },
+    {
+      "id": "@mdit/plugin-align",
+      "name": "对齐方式",
+      "version": "1.1.5",
+      "description": "控制块级内容的左/中/右对齐。",
+      "descriptionEn": "Align plugin for MarkdownIt",
+      "source": "market",
+      "badge": "unreviewed",
+      "reviewed": false,
+      "legacyBadge": "community",
+      "author": "",
+      "homepage": "https://www.npmjs.com/package/@mdit/plugin-align",
+      "download": "https://registry.npmjs.org/@mdit/plugin-align/-/plugin-align-1.1.5.tgz",
+      "sha256": "9ee2ad0f6cb42a6973968b8b533bfbd26d388e6e18a75aaee307b8855ba9ac66",
+      "sizeKb": 5,
+      "weeklyDownloads": 11889,
+      "deps": [],
+      "scannedAt": "2026-11-18T08:34:09Z",
+      "category": "排版增强"
+    },
+    {
+      "id": "markdown-it-prism",
+      "name": "Prism 代码高亮",
+      "version": "4.0.0",
+      "description": "代码块用 Prism 做语法高亮。",
+      "descriptionEn": "Highlights code blocks in markdown-it using Prism.",
+      "source": "market",
+      "badge": "unreviewed",
+      "reviewed": false,
+      "legacyBadge": "community",
+      "author": "",
+      "homepage": "https://www.npmjs.com/package/markdown-it-prism",
+      "download": "https://registry.npmjs.org/markdown-it-prism/-/markdown-it-prism-4.0.0.tgz",
+      "sha256": "c39994df406a82dd6e99d929b55a23a512c8428123f03f0cf43eb40e945c7e15",
+      "sizeKb": 6,
+      "weeklyDownloads": 11311,
+      "deps": [],
+      "scannedAt": "2026-11-18T08:34:13Z",
+      "category": "代码与公式",
+      "conflicts": [
+        "highlight"
+      ]
+    },
+    {
+      "id": "markdown-it-regexp",
+      "name": "社区插件（markdown-it-regexp）",
+      "version": "0.4.0",
+      "description": "社区插件（markdown-it-regexp）。来自 npm 包 markdown-it-regexp（10,815/周）。社区第三方作品，未经审核，安装前请自行确认来源与风险。",
+      "descriptionEn": "plugin that makes regexp replacement simple",
+      "source": "market",
+      "badge": "unreviewed",
+      "reviewed": false,
+      "legacyBadge": "community",
+      "author": "",
+      "homepage": "https://www.npmjs.com/package/markdown-it-regexp",
+      "download": "https://registry.npmjs.org/markdown-it-regexp/-/markdown-it-regexp-0.4.0.tgz",
+      "sha256": "85866a4e30ccc8d0b74c4c162ff611c1400800c7380ff0e855110a2d370a246e",
+      "sizeKb": 3,
+      "weeklyDownloads": 10815,
+      "deps": [],
+      "scannedAt": "2026-11-18T08:34:14Z",
+      "nameSource": "template",
+      "category": "排版增强"
+    },
+    {
+      "id": "markdown-it-expand-tabs",
+      "name": "·expand选项卡",
+      "version": "1.0.13",
+      "description": "·expand选项卡。来自 npm 包 markdown-it-expand-tabs（10,408/周）。社区第三方作品，未经审核，安装前请自行确认来源与风险。",
+      "descriptionEn": "A markdown-it plugin to replace leading tabs with spaces in code blocks",
+      "source": "market",
+      "badge": "unreviewed",
+      "reviewed": false,
+      "legacyBadge": "community",
+      "author": "",
+      "homepage": "https://www.npmjs.com/package/markdown-it-expand-tabs",
+      "download": "https://registry.npmjs.org/markdown-it-expand-tabs/-/markdown-it-expand-tabs-1.0.13.tgz",
+      "sha256": "55bcbc769b9d3954927d91bb4a45b0e3305b8c7edd32fbf439a66ce814730df2",
+      "sizeKb": 3,
+      "weeklyDownloads": 10408,
+      "deps": [],
+      "scannedAt": "2026-11-18T08:34:15Z",
+      "nameSource": "template",
+      "category": "排版增强"
+    },
+    {
+      "id": "markdown-it-checkbox",
+      "name": "复选框",
+      "version": "1.1.0",
+      "description": "把 [ ] / [x] 转成复选框输入。",
+      "descriptionEn": "Plugin to create checkboxes for markdown-it markdown parser",
+      "source": "market",
+      "badge": "unreviewed",
+      "reviewed": false,
+      "legacyBadge": "community",
+      "author": "",
+      "homepage": "https://www.npmjs.com/package/markdown-it-checkbox",
+      "download": "https://registry.npmjs.org/markdown-it-checkbox/-/markdown-it-checkbox-1.1.0.tgz",
+      "sha256": "729a8cb3abd374661041cabcdfb3a5d8a890ac3245b5780b34d237d310595459",
+      "sizeKb": 6,
+      "weeklyDownloads": 10266,
+      "deps": [],
+      "scannedAt": "2026-11-18T08:34:16Z",
+      "category": "交互控件",
+      "conflicts": [
+        "task-list"
+      ]
+    },
+    {
+      "id": "markdown-it-textual-uml",
+      "name": "·textualUML 图表",
+      "version": "0.17.1",
+      "description": "·textualUML 图表。来自 npm 包 markdown-it-textual-uml（9,570/周）。社区第三方作品，未经审核，安装前请自行确认来源与风险。",
+      "descriptionEn": "Markdown-it markdown parser plugin to create uml diagrams from text, based on plantuml, mermaid, etc.",
+      "source": "market",
+      "badge": "unreviewed",
+      "reviewed": false,
+      "legacyBadge": "community",
+      "author": "",
+      "homepage": "https://www.npmjs.com/package/markdown-it-textual-uml",
+      "download": "https://registry.npmjs.org/markdown-it-textual-uml/-/markdown-it-textual-uml-0.17.1.tgz",
+      "sha256": "a93128b4ff768f7cec275de3f3a0f07384abf35bdf1739d51324b21cc6e6ce8f",
+      "sizeKb": 30,
+      "weeklyDownloads": 9570,
+      "deps": [],
+      "scannedAt": "2026-11-18T08:34:20Z",
+      "nameSource": "template",
+      "category": "图表可视化",
+      "conflicts": [
+        "uml"
+      ]
+    },
+    {
+      "id": "markdown-it-replace-link",
+      "name": "链接替换",
+      "version": "1.2.2",
+      "description": "按回调替换链接地址。",
+      "descriptionEn": "markdown-it plugin for replacing links (image & text) in the markdown document.",
+      "source": "market",
+      "badge": "unreviewed",
+      "reviewed": false,
+      "legacyBadge": "community",
+      "author": "",
+      "homepage": "https://www.npmjs.com/package/markdown-it-replace-link",
+      "download": "https://registry.npmjs.org/markdown-it-replace-link/-/markdown-it-replace-link-1.2.2.tgz",
+      "sha256": "1bdb078f2a36fa9a4e440a463a155d73adf71d9e3e432b7dd7465433b9b44e10",
+      "sizeKb": 4,
+      "weeklyDownloads": 9487,
+      "deps": [],
+      "scannedAt": "2026-11-18T08:34:21Z",
+      "category": "排版增强"
+    },
+    {
+      "id": "@mdit/plugin-icon",
+      "name": "图标",
+      "version": "1.1.5",
+      "description": "在正文中插入图标字体。",
+      "descriptionEn": "icon plugin for MarkdownIt",
+      "source": "market",
+      "badge": "unreviewed",
+      "reviewed": false,
+      "legacyBadge": "community",
+      "author": "",
+      "homepage": "https://www.npmjs.com/package/@mdit/plugin-icon",
+      "download": "https://registry.npmjs.org/@mdit/plugin-icon/-/plugin-icon-1.1.5.tgz",
+      "sha256": "da735717a3382ee26eddf87038a34288e62fb2be928eeb3d2230c7e1edffe11c",
+      "sizeKb": 16,
+      "weeklyDownloads": 9298,
+      "deps": [],
+      "scannedAt": "2026-11-18T08:34:22Z",
+      "category": "排版增强"
+    },
+    {
+      "id": "markdown-it-block-image",
+      "name": "块级图片",
+      "version": "0.0.3",
+      "description": "块级图片。来自 npm 包 markdown-it-block-image（8,778/周）。社区第三方作品，未经审核，安装前请自行确认来源与风险。",
+      "descriptionEn": "Plugin for markdown-it that detects and outputs block level images.",
+      "source": "market",
+      "badge": "unreviewed",
+      "reviewed": false,
+      "legacyBadge": "community",
+      "author": "",
+      "homepage": "https://www.npmjs.com/package/markdown-it-block-image",
+      "download": "https://registry.npmjs.org/markdown-it-block-image/-/markdown-it-block-image-0.0.3.tgz",
+      "sha256": "1be5931d23b8e42086474a74969a3ba87c417ab0c4b295ed61969de8232eeb14",
+      "sizeKb": 4,
+      "weeklyDownloads": 8778,
+      "deps": [],
+      "scannedAt": "2026-11-18T08:34:23Z",
+      "category": "排版增强"
+    },
+    {
+      "id": "markdown-it-inline-comments",
+      "name": "行内注释",
+      "version": "1.0.1",
+      "description": "行内注释。来自 npm 包 markdown-it-inline-comments（8,643/周）。社区第三方作品，未经审核，安装前请自行确认来源与风险。",
+      "descriptionEn": "tag for markdown-it markdown parser.",
+      "source": "market",
+      "badge": "unreviewed",
+      "reviewed": false,
+      "legacyBadge": "community",
+      "author": "",
+      "homepage": "https://www.npmjs.com/package/markdown-it-inline-comments",
+      "download": "https://registry.npmjs.org/markdown-it-inline-comments/-/markdown-it-inline-comments-1.0.1.tgz",
+      "sha256": "785c10d7ddcb688b5bef1bcb1ba71cb909596ed6d603f4d31d80446bc4010716",
+      "sizeKb": 4,
+      "weeklyDownloads": 8643,
+      "deps": [],
+      "scannedAt": "2026-11-18T08:34:24Z",
+      "nameSource": "template",
+      "category": "内容组织"
+    },
+    {
+      "id": "markdown-it-plain-text",
+      "name": "纯文本提取",
+      "version": "0.3.0",
+      "description": "把 Markdown 转成纯文本（去掉标记）。",
+      "descriptionEn": "plain text extractor plugin for markdown-it markdown parser",
+      "source": "market",
+      "badge": "unreviewed",
+      "reviewed": false,
+      "legacyBadge": "community",
+      "author": "",
+      "homepage": "https://www.npmjs.com/package/markdown-it-plain-text",
+      "download": "https://registry.npmjs.org/markdown-it-plain-text/-/markdown-it-plain-text-0.3.0.tgz",
+      "sha256": "0ddb9011dcc63d7775b314c014c26c609ba46c38e7456be50b9b32ec73b5d774",
+      "sizeKb": 3,
+      "weeklyDownloads": 8549,
+      "deps": [],
+      "scannedAt": "2026-11-18T08:34:25Z",
+      "category": "导出增强"
+    },
+    {
+      "id": "@mdit/plugin-layout",
+      "name": "社区插件（@mdit/plugin-layout）",
+      "version": "2.0.1",
+      "description": "社区插件（@mdit/plugin-layout）。来自 npm 包 @mdit/plugin-layout（8,507/周）。社区第三方作品，未经审核，安装前请自行确认来源与风险。",
+      "descriptionEn": "A directive-based layout engine plugin for MarkdownIt supporting Flexbox, CSS Grid, and Multi-column layouts",
+      "source": "market",
+      "badge": "unreviewed",
+      "reviewed": false,
+      "legacyBadge": "community",
+      "author": "",
+      "homepage": "https://www.npmjs.com/package/@mdit/plugin-layout",
+      "download": "https://registry.npmjs.org/@mdit/plugin-layout/-/plugin-layout-2.0.1.tgz",
+      "sha256": "2103b4ebeaafa38aa93ed4b4a2435ed59c1b00af6cda4cdaedf69c858f1d2864",
+      "sizeKb": 31,
+      "weeklyDownloads": 8507,
+      "deps": [],
+      "scannedAt": "2026-11-18T08:34:27Z",
+      "nameSource": "template",
+      "category": "排版增强"
+    },
+    {
+      "id": "@mdit/plugin-mathjax",
+      "name": "数学公式",
+      "version": "2.1.0",
+      "description": "数学公式。来自 npm 包 @mdit/plugin-mathjax（7,931/周）。社区第三方作品，未经审核，安装前请自行确认来源与风险。",
+      "descriptionEn": "mathjax plugin for MarkdownIt",
+      "source": "market",
+      "badge": "unreviewed",
+      "reviewed": false,
+      "legacyBadge": "community",
+      "author": "",
+      "homepage": "https://www.npmjs.com/package/@mdit/plugin-mathjax",
+      "download": "https://registry.npmjs.org/@mdit/plugin-mathjax/-/plugin-mathjax-2.1.0.tgz",
+      "sha256": "d38cdf8d84ac04f9fcb93b20397dc59c3c96b4d962d01ae30aa3f78351547ecf",
+      "sizeKb": 32,
+      "weeklyDownloads": 7931,
+      "deps": [],
+      "scannedAt": "2026-11-18T08:34:28Z",
+      "nameSource": "template",
+      "category": "代码与公式",
+      "conflicts": [
+        "formula"
+      ]
+    },
+    {
+      "id": "markdown-it-hashtag",
+      "name": "话题标签",
+      "version": "0.4.0",
+      "description": "把 #话题 渲染成话题标签。",
+      "descriptionEn": "hashtag for markdown-it markdown parser.",
+      "source": "market",
+      "badge": "unreviewed",
+      "reviewed": false,
+      "legacyBadge": "community",
+      "author": "",
+      "homepage": "https://www.npmjs.com/package/markdown-it-hashtag",
+      "download": "https://registry.npmjs.org/markdown-it-hashtag/-/markdown-it-hashtag-0.4.0.tgz",
+      "sha256": "9df5fd441e942c2b07b4465f5c8e2b927e96f75ded7761dbfd3b936c96e09408",
+      "sizeKb": 5,
+      "weeklyDownloads": 7396,
+      "deps": [],
+      "scannedAt": "2026-11-18T08:34:29Z",
+      "category": "内容组织"
+    },
+    {
+      "id": "@hackmd/markdown-it-task-lists",
+      "name": "任务列表",
+      "version": "2.1.4",
+      "description": "任务列表。来自 npm 包 @hackmd/markdown-it-task-lists（6,978/周）。社区第三方作品，未经审核，安装前请自行确认来源与风险。",
+      "descriptionEn": "A markdown-it plugin to create GitHub-style task lists",
+      "source": "market",
+      "badge": "unreviewed",
+      "reviewed": false,
+      "legacyBadge": "community",
+      "author": "",
+      "homepage": "https://www.npmjs.com/package/@hackmd/markdown-it-task-lists",
+      "download": "https://registry.npmjs.org/@hackmd/markdown-it-task-lists/-/markdown-it-task-lists-2.1.4.tgz",
+      "sha256": "7fddc8a14c755ac85cec0221ab4acee7544c3bd394fea8debeda022bb27e3b93",
+      "sizeKb": 5,
+      "weeklyDownloads": 6978,
+      "deps": [],
+      "scannedAt": "2026-11-18T08:34:31Z",
+      "nameSource": "template",
+      "category": "交互控件",
+      "conflicts": [
+        "task-list"
+      ]
+    },
+    {
+      "id": "markdown-it-plantuml",
+      "name": "PlantUML 时序图",
+      "version": "1.4.1",
+      "description": "把 plantuml 代码块渲染成 UML 图。",
+      "descriptionEn": "Plugin to create block-level uml diagrams for markdown-it markdown parser",
+      "source": "market",
+      "badge": "unreviewed",
+      "reviewed": false,
+      "legacyBadge": "community",
+      "author": "",
+      "homepage": "https://www.npmjs.com/package/markdown-it-plantuml",
+      "download": "https://registry.npmjs.org/markdown-it-plantuml/-/markdown-it-plantuml-1.4.1.tgz",
+      "sha256": "b753dcafcd22b1f37242de34816df09f1432f355abcac4d3e6a9d978fd63d5a1",
+      "sizeKb": 18,
+      "weeklyDownloads": 6804,
+      "deps": [],
+      "scannedAt": "2026-11-18T08:34:32Z",
+      "category": "图表可视化",
+      "conflicts": [
+        "uml"
+      ]
+    },
+    {
+      "id": "@diplodoc/color-extension",
+      "name": "彩色·extension",
+      "version": "1.0.0",
+      "description": "彩色·extension。来自 npm 包 @diplodoc/color-extension（6,599/周）。社区第三方作品，未经审核，安装前请自行确认来源与风险。",
+      "descriptionEn": "Inline color plugin for Diplodoc transformer and builder",
+      "source": "market",
+      "badge": "unreviewed",
+      "reviewed": false,
+      "legacyBadge": "community",
+      "author": "",
+      "homepage": "https://www.npmjs.com/package/@diplodoc/color-extension",
+      "download": "https://registry.npmjs.org/@diplodoc/color-extension/-/color-extension-1.0.0.tgz",
+      "sha256": "50b9958eab6ea0f0984e729a8bb936a4f1ad06fafd132be6e096888c2f70dc91",
+      "sizeKb": 7,
+      "weeklyDownloads": 6599,
+      "deps": [],
+      "scannedAt": "2026-11-18T08:34:33Z",
+      "nameSource": "template",
+      "category": "排版增强"
+    },
+    {
+      "id": "@mdit/plugin-emoji",
+      "name": "表情符号",
+      "version": "1.3.0",
+      "description": "表情符号。来自 npm 包 @mdit/plugin-emoji（6,239/周）。社区第三方作品，未经审核，安装前请自行确认来源与风险。",
+      "descriptionEn": "Emoji plugin for MarkdownIt",
+      "source": "market",
+      "badge": "unreviewed",
+      "reviewed": false,
+      "legacyBadge": "community",
+      "author": "",
+      "homepage": "https://www.npmjs.com/package/@mdit/plugin-emoji",
+      "download": "https://registry.npmjs.org/@mdit/plugin-emoji/-/plugin-emoji-1.3.0.tgz",
+      "sha256": "703110c412266299fb32ce51aee7a9f0d6cbb3e39e860f518c8f9448074fa621",
+      "sizeKb": 90,
+      "weeklyDownloads": 6239,
+      "deps": [],
+      "scannedAt": "2026-11-18T08:34:35Z",
+      "category": "排版增强",
+      "conflicts": [
+        "emoji"
+      ]
+    },
+    {
+      "id": "@mdit/plugin-field",
+      "name": "字段语法",
+      "version": "3.0.3",
+      "description": "字段语法。来自 npm 包 @mdit/plugin-field（5,619/周）。社区第三方作品，未经审核，安装前请自行确认来源与风险。",
+      "descriptionEn": "Field syntax plugin for MarkdownIt",
+      "source": "market",
+      "badge": "unreviewed",
+      "reviewed": false,
+      "legacyBadge": "community",
+      "author": "",
+      "homepage": "https://www.npmjs.com/package/@mdit/plugin-field",
+      "download": "https://registry.npmjs.org/@mdit/plugin-field/-/plugin-field-3.0.3.tgz",
+      "sha256": "3a12c2d4b0384141073723eef2c8096e749757739a6f47ac02353f3625e6c5b0",
+      "sizeKb": 36,
+      "weeklyDownloads": 5619,
+      "deps": [],
+      "scannedAt": "2026-11-18T08:34:36Z",
+      "category": "内容组织"
+    },
+    {
+      "id": "@mdit/plugin-advanced-links",
+      "name": "高级链接",
+      "version": "1.0.0",
+      "description": "高级链接。来自 npm 包 @mdit/plugin-advanced-links（5,604/周）。社区第三方作品，未经审核，安装前请自行确认来源与风险。",
+      "descriptionEn": "advanced links plugin for MarkdownIt",
+      "source": "market",
+      "badge": "unreviewed",
+      "reviewed": false,
+      "legacyBadge": "community",
+      "author": "",
+      "homepage": "https://www.npmjs.com/package/@mdit/plugin-advanced-links",
+      "download": "https://registry.npmjs.org/@mdit/plugin-advanced-links/-/plugin-advanced-links-1.0.0.tgz",
+      "sha256": "827589c4d4fb2c9b10f6435f9c88ec719d1af6f3390543620590eef3eccd4694",
+      "sizeKb": 30,
+      "weeklyDownloads": 5604,
+      "deps": [],
+      "scannedAt": "2026-11-18T08:34:38Z",
+      "category": "排版增强"
+    },
+    {
+      "id": "markdown-it-bracketed-spans",
+      "name": "方括号行内样式",
+      "version": "1.0.3",
+      "description": "方括号行内样式。来自 npm 包 markdown-it-bracketed-spans（5,463/周）。社区第三方作品，未经审核，安装前请自行确认来源与风险。",
+      "descriptionEn": "<span> tag for markdown-it markdown parser.",
+      "source": "market",
+      "badge": "unreviewed",
+      "reviewed": false,
+      "legacyBadge": "community",
+      "author": "",
+      "homepage": "https://www.npmjs.com/package/markdown-it-bracketed-spans",
+      "download": "https://registry.npmjs.org/markdown-it-bracketed-spans/-/markdown-it-bracketed-spans-1.0.3.tgz",
+      "sha256": "b08f3365c27f488703b897b31ac9d5b4c6dc871d76e6d4045fd46c8f1316d920",
+      "sizeKb": 2,
+      "weeklyDownloads": 5463,
+      "deps": [],
+      "scannedAt": "2026-11-18T08:34:40Z",
+      "category": "排版增强"
+    },
+    {
+      "id": "markdown-it-br",
+      "name": "换行扩展",
+      "version": "1.0.0",
+      "description": "用单回车产生换行（GFM 行为）。",
+      "descriptionEn": "tag for markdown-it markdown parser.",
+      "source": "market",
+      "badge": "unreviewed",
+      "reviewed": false,
+      "legacyBadge": "community",
+      "author": "",
+      "homepage": "https://www.npmjs.com/package/markdown-it-br",
+      "download": "https://registry.npmjs.org/markdown-it-br/-/markdown-it-br-1.0.0.tgz",
+      "sha256": "fcf466896efd43f56d6abae8415f706eea71084847aa4379e0749bdd80400a28",
+      "sizeKb": 4,
+      "weeklyDownloads": 5332,
+      "deps": [],
+      "scannedAt": "2026-11-18T08:34:41Z",
+      "category": "排版增强"
+    },
+    {
+      "id": "@nuxtjs/markdownit-loader",
+      "name": "Nuxt 构建加载器",
+      "version": "1.2.0",
+      "description": "Nuxt 构建加载器。来自 npm 包 @nuxtjs/markdownit-loader（5,014/周）。社区第三方作品，未经审核，安装前请自行确认来源与风险。",
+      "descriptionEn": "Webpack loader to translate markdown to HTML using markdownit.",
+      "source": "market",
+      "badge": "unreviewed",
+      "reviewed": false,
+      "legacyBadge": "community",
+      "author": "",
+      "homepage": "https://www.npmjs.com/package/@nuxtjs/markdownit-loader",
+      "download": "https://registry.npmjs.org/@nuxtjs/markdownit-loader/-/markdownit-loader-1.2.0.tgz",
+      "sha256": "236088ca2fbcefc63406d6c8d9329e3bf6a10b0effebe098c4fece3cf42bca19",
+      "sizeKb": 5,
+      "weeklyDownloads": 5014,
+      "deps": [],
+      "scannedAt": "2026-11-18T08:34:42Z",
+      "category": "内容组织"
+    },
+    {
+      "id": "markdown-it-collapsible",
+      "name": "折叠块",
+      "version": "2.0.2",
+      "type": "renderer",
+      "main": "index.js",
+      "description": "用 +++ 标题 把长内容折起来，点标题展开；适合附录、FAQ、大段细节。",
+      "descriptionEn": "Collapsible sections for markdown-it (+++ syntax).",
+      "source": "market",
+      "badge": "verified-pack",
+      "sha256": "ac54d109e4854b3e5ea86fe7c81320aa8d71caf00b2632d5a43f018aaad328e8",
+      "download": "https://raw.githubusercontent.com/fstoer-a/zimin-reader-release/main/plugins/packs/markdown-it-collapsible-2.0.2.zip",
+      "sizeKb": 3,
+      "minApiVersion": 1,
+      "category": "内容组织",
+      "conflicts": [],
+      "weeklyDownloads": 4949,
+      "author": "community"
+    },
+    {
+      "id": "markdown-it-div",
+      "name": "div 容器",
+      "version": "1.1.0",
+      "type": "renderer",
+      "main": "index.js",
+      "description": "用 ::: 名称 生成带 class 的 div 容器，可配主题 CSS 做卡片、提示块、分栏。",
+      "descriptionEn": "Custom ::: div containers for markdown-it.",
+      "source": "market",
+      "badge": "verified-pack",
+      "sha256": "b411bd95986d3362af92876492514d842305d5b81e501785522cdc9fb1e58cb0",
+      "download": "https://raw.githubusercontent.com/fstoer-a/zimin-reader-release/main/plugins/packs/markdown-it-div-1.1.0.zip",
+      "sizeKb": 2,
+      "minApiVersion": 1,
+      "category": "排版增强",
+      "conflicts": [
+        "container"
+      ],
+      "weeklyDownloads": 2043,
+      "author": "community"
+    },
+    {
+      "id": "markdown-it-external-links",
+      "name": "外链新窗口",
+      "version": "0.0.6",
+      "type": "renderer",
+      "main": "index.js",
+      "description": "外链自动加 target=_blank 与 rel=noopener，可给外链加统一样式类名。",
+      "descriptionEn": "Add target=_blank + rel=noopener to external links.",
+      "source": "market",
+      "badge": "verified-pack",
+      "sha256": "2ed6baad31c17cc5140639b76bdd1fda76134c03065282da6356e955b0259082",
+      "download": "https://raw.githubusercontent.com/fstoer-a/zimin-reader-release/main/plugins/packs/markdown-it-external-links-0.0.6.zip",
+      "sizeKb": 2,
+      "minApiVersion": 1,
+      "category": "排版增强",
+      "conflicts": [
+        "external-link"
+      ],
+      "weeklyDownloads": 2462,
+      "author": "community"
     }
   ]
 }
