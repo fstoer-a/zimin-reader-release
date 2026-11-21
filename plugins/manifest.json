@@ -1,6 +1,6 @@
 {
-  "version": "1.0.0",
-  "updatedAt": "2026-11-21T16:11:22Z",
+  "version": "20261121.bcc6d224",
+  "updatedAt": "2026-11-21T16:52:46Z",
   "plugins": [
     {
       "id": "@vscode/markdown-it-katex",
@@ -9264,11 +9264,11 @@
       "version": "0.0.6",
       "type": "renderer",
       "main": "index.js",
-      "description": "外链自动加 target=_blank 与 rel=noopener，可给外链加统一样式类名。",
-      "descriptionEn": "Add target=_blank + rel=noopener to external links.",
+      "description": "外链自动新窗口打开并加 rel=noopener，附 external-link 类名。",
+      "descriptionEn": "Open external links in a new window with rel=noopener and an external-link class.",
       "source": "market",
       "badge": "verified-pack",
-      "sha256": "2ed6baad31c17cc5140639b76bdd1fda76134c03065282da6356e955b0259082",
+      "sha256": "e832935b39066e184f9fd7f989c39f29b7606a3cd7fb38a96c54c584687f9953",
       "download": "https://raw.githubusercontent.com/fstoer-a/zimin-reader-release/main/plugins/packs/markdown-it-external-links-0.0.6.zip",
       "sizeKb": 2,
       "minApiVersion": 1,
